@@ -1,0 +1,74 @@
+@charset "utf-8";
+.logotop{
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 999;
+	width: 100%;
+	height: 4em;
+	font-family: 'Arvo';
+	background-color: rgba(221,221,221,1.00);
+}
+	
+
+	
+.title{
+	font-family: 'Arvo';
+}
+.sub {
+	font-family: 'Poppins';
+}
+p{
+	font-family: 'Dosis';
+}
+.lime{
+	color: lime;
+}
+.top{
+	background-color: #FFFFFF;
+}
+.left {
+	float: left;
+	margin-right: 50em;
+	margin-left: 1em;
+}
+.small {
+	font-size: x-small;
+}
+nav{
+	color: black;
+	height: 3em;
+		
+}
+.navleft {
+	float: left;
+	margin-left: 10em;
+}
+.navcenter {
+	clear: both;
+	font-size: x-large;
+}
+.navright {
+	float: right;
+	margin-right: 10em;
+}
+big {
+	font-size: xx-large;
+}
+a {
+  color: black;
+  -o-transition:.5s;
+  -ms-transition:.5s;
+  -moz-transition:.5s;
+  -webkit-transition:.5s;
+  transition:.5s;
+	text-decoration: none
+}
+a:hover { color:lime; text-decoration: none; }
+.underlogo {
+	margin-top: 4em;
+	text-decoration: none
+}
+.white {
+	color: #FFFFFF;
+}
