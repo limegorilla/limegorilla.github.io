@@ -29,8 +29,13 @@ p{
 }
 .left {
 	float: left;
-	margin-right: 50em;
-	margin-left: 1em;
+	margin-left: 15%;
+	margin-right: 15%;
+	padding-right: 2em;
+	padding-left: 2em;
+	padding-top: 2em;
+	padding-bottom: 2em;
+	background-color: rgba(206,206,206,1.00);
 }
 .small {
 	font-size: x-small;
@@ -71,4 +76,9 @@ a:hover { color:lime; text-decoration: none; }
 }
 .white {
 	color: #FFFFFF;
+}
+.toptitle {
+}
+.toptitle {
+	padding-bottom: 1em;
 }
