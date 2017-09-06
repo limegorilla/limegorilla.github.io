@@ -40,23 +40,8 @@ p{
 .small {
 	font-size: x-small;
 }
-nav{
-	color: black;
-	height: 3em;
-		
-}
-.navleft {
-	float: left;
-	margin-left: 10em;
-}
-.navcenter {
-	clear: both;
-	font-size: x-large;
-}
-.navright {
-	float: right;
-	margin-right: 10em;
-}
+
+
 big {
 	font-size: xx-large;
 }
@@ -78,7 +63,10 @@ a:hover { color:lime; text-decoration: none; }
 	color: #FFFFFF;
 }
 .toptitle {
-}
-.toptitle {
 	padding-bottom: 1em;
+}
+
+.dark {
+    background-color: lightgrey
+
 }
