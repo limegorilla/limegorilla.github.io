@@ -1,0 +1,44 @@
+.title{
+   font-family: 'Pangolin', cursive;
+}
+.sub{
+    font-family: 'Indie Flower', cursive;
+}
+.body{
+    font-family: 'Raleway', sans-serif;
+}
+.nav{
+    font-family: 'Josefin Slab', serif;
+}
+.footer{
+    font-family: 'Julius Sans One', sans-serif;
+}
+.barcode{
+    font-family: 'Libre Barcode 39 Text', cursive;
+    font-size: 2em;
+}
+.left{
+    background-color: #F0F0F0;
+    width: 100%;
+    padding-bottom: 2em;
+    padding-top: 2em;
+    margin-bottom: 2em;
+    
+}
+.lefttxt{
+    margin-left: 3em;
+}
+body{
+  padding-bottom: 4em;
+}
+.center{
+    background-color: #DCDCDC;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    margin-bottom: 5em;
+    padding-left: 4em;
+    padding-right: 4em;
+}
+.lime{
+    text-decoration-color: #00C300;
+}
