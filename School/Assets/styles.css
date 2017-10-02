@@ -1,5 +1,5 @@
 .title{
-   font-family: 'Pangolin', cursive;
+   font-family: 'Arvo', cursive;
 }
 .sub{
     font-family: 'Indie Flower', cursive;
@@ -39,6 +39,6 @@ body{
     padding-left: 4em;
     padding-right: 4em;
 }
-.lime{
-    text-decoration-color: #00C300;
+.green{
+    color: #00C300;
 }
