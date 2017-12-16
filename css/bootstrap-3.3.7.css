@@ -1488,9 +1488,10 @@ blockquote ol:last-child {
 blockquote footer,
 blockquote small,
 blockquote .small {
-	display: block;
-	font-size: 80%;
-	line-height: 1.42857143;
+  display: block;
+  font-size: 80%;
+  line-height: 1.42857143;
+  color: #777;
 }
 blockquote footer:before,
 blockquote small:before,
@@ -4955,14 +4956,11 @@ a.badge:focus {
   margin-left: 3px;
 }
 .jumbotron {
-	padding-top: 30px;
-	padding-bottom: 30px;
-	margin-bottom: 30px;
-	color: inherit;
-	background-color: #eee;
-	padding-right: 3em;
-	margin-left: 5em;
-	margin-right: 5em;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin-bottom: 30px;
+  color: inherit;
+  background-color: #eee;
 }
 .jumbotron h1,
 .jumbotron .h1 {
@@ -5483,10 +5481,11 @@ button.list-group-item-danger.active:focus {
   color: inherit;
 }
 .panel-footer {
-	padding: 10px 15px;
-	border-top: 1px solid #ddd;
-	border-bottom-right-radius: 3px;
-	border-bottom-left-radius: 3px;
+  padding: 10px 15px;
+  background-color: #f5f5f5;
+  border-top: 1px solid #ddd;
+  border-bottom-right-radius: 3px;
+  border-bottom-left-radius: 3px;
 }
 .panel > .list-group,
 .panel > .panel-collapse > .list-group {
