@@ -9,7 +9,9 @@
 	font-family: 'Arvo';
 	background-color: rgba(221,221,221,1.00);
 }
-	
+.barcode{
+	font-family: 'Libre Barcode 39 Text', cursive;
+}	
 
 	
 .title{
