@@ -5005,6 +5005,12 @@ a.badge:focus {
   .jumbotron .h1 {
     font-size: 63px;
   }
+.main {
+	margin-right: 3em;
+	margin-left: 3em;
+	background-color: transparent;
+}
+
 }
 .thumbnail {
   display: block;

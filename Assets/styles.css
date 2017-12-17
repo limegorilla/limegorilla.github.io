@@ -71,4 +71,7 @@ a:hover { color:lime; text-decoration: none; }
 .dark {
     background-color: lightgrey
 
+}.maintxt {
+	margin-right: 2em;
+	margin-left: 2em;
 }
