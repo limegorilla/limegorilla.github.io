@@ -4990,6 +4990,12 @@ a.badge:focus {
     padding-top: 48px;
     padding-bottom: 48px;
   }
+.suggested {
+	margin-right: 2em;
+	margin-left: 2em;
+	background-color: #DBDBDB;
+}
+
   .container .jumbotron,
   .container-fluid .jumbotron {
     padding-right: 60px;
