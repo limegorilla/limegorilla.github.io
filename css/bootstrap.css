@@ -4990,7 +4990,13 @@ a.badge:focus {
     padding-bottom: 48px;
   }
 	.jumbotop {
-		  background-color: #eee;
+	background-color: #eee;
+
+
+
+
+	margin-top: 3.em;
+	margin-top: 2em;
 	}
 .suggested {
 	margin-right: 2em;
