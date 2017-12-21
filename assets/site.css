@@ -1,0 +1,25 @@
+@charset "utf-8";
+/*! Fonts */
+.title {
+ font-family: 'Arvo', serif;
+}
+.subtitle {
+	font-family: 'Spectral SC', serif;
+}
+body {
+	font-family: 'Quicksand', sans-serif;
+}
+/*! /Fonts */.logo-top {
+	width: 3em;
+
+}
+.lime {
+	color: #9cff00;
+}
+.nav-color {
+	background-color: #1C263C;
+}
+.white {
+	color: #FFFFFF;
+}
+

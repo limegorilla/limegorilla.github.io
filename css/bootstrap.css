@@ -118,7 +118,7 @@ textarea {
   color: inherit;
 }
 button {
-  overflow: visible;
+	overflow: visible;
 }
 button,
 select {
@@ -187,6 +187,26 @@ td,
 th {
   padding: 0;
 }
+.nav-title {
+	text-decoration: none;
+	text-align: center;
+	font-size: 2em;
+}
+.logo {
+	width: 6em;
+	height: 98%;
+}
+.nuv-bttn {
+
+
+}
+.collapsed {
+
+}
+
+
+
+
 /*! Source: https://github.com/h5bp/html5-boilerplate/blob/master/src/css/main.css */
 @media print {
   *,
@@ -3114,9 +3134,9 @@ fieldset[disabled] .btn-default.focus {
   background-color: #333;
 }
 .btn-primary {
-  color: #fff;
-  background-color: #337ab7;
-  border-color: #2e6da4;
+	color: #FFFFFF;
+	background-color: #00FF00;
+	border-color: #FFFFFF;
 }
 .btn-primary:focus,
 .btn-primary.focus {
@@ -3125,9 +3145,9 @@ fieldset[disabled] .btn-default.focus {
   border-color: #122b40;
 }
 .btn-primary:hover {
-  color: #fff;
-  background-color: #286090;
-  border-color: #204d74;
+	color: #000000;
+	background-color: #FFFFFF;
+	border-color: #000000;
 }
 .btn-primary:active,
 .btn-primary.active,
@@ -4309,10 +4329,12 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   outline: 0;
 }
 .navbar-toggle .icon-bar {
-  display: block;
-  width: 22px;
-  height: 2px;
-  border-radius: 1px;
+	display: block;
+	width: 22px;
+	height: 2px;
+	border-radius: 1px;
+	margin-top: 0px;
+	padding-top: 2px;
 }
 .navbar-toggle .icon-bar + .icon-bar {
   margin-top: 4px;
