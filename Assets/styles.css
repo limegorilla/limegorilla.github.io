@@ -66,6 +66,7 @@ a:hover { color:lime; text-decoration: none; }
 }
 .toptitle {
 	padding-bottom: 1em;
+	font-size: 2em;
 }
 
 .dark {
@@ -74,4 +75,24 @@ a:hover { color:lime; text-decoration: none; }
 }.maintxt {
 	margin-right: 5em;
 	margin-left: 5em;
+}
+body {
+	padding-top: 15%;
+}
+@media (max-width: 600px){
+	body {
+		padding-top: 20%;
+	}
+}
+
+@media (max-width: 350px){
+	body {
+		padding-top: 25%;
+	}
+}
+
+@media (max-width: 250px){
+	body {
+		padding-top: 30%;
+	}
 }
