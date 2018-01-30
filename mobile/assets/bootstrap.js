@@ -2948,14 +2948,16 @@ fieldset[disabled] a.btn {
 }
 
 .btn-outline-success {
+  color: #5cb85c;
   background-image: none;
   background-color: transparent;
-  border-color: #FFFFFF;
+  border-color: #5cb85c;
 }
 
 .btn-outline-success:hover {
-  color: #;
-  border-color: #000000;
+  color: #fff;
+  background-color: #5cb85c;
+  border-color: #5cb85c;
 }
 
 .btn-outline-success:focus, .btn-outline-success.focus {
@@ -3821,7 +3823,6 @@ tbody.collapse.show {
   padding-left: 0;
   margin-bottom: 0;
   list-style: none;
-  background-color: white
 }
 
 .nav-link {
@@ -3922,8 +3923,6 @@ tbody.collapse.show {
       -ms-flex-direction: column;
           flex-direction: column;
   padding: 0.5rem 1rem;
-  background-color: white
-  
 }
 
 .navbar-brand {
