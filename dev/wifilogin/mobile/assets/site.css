@@ -6,13 +6,13 @@
 .subtitle {
 	font-family: 'Spectral SC', serif;
 }
+.subtitle-body {
+  padding-top: 2em;
+  padding-bottom: 1em;
+}
 .sub {
   font-family: 'Spectral', serif;
   padding-bottom: 0.5em;
-}
-.subtitle-body {
-  padding-left:2em;
-  padding-top: 2em;
 }
 body {
 	font-family: 'Montserrat', sans-serif;
@@ -52,4 +52,7 @@ body {
 }
 .barcode {
   font-family: 'Libre Barcode 39 Text', cursive;
+}
+a {
+  color: #00000
 }
