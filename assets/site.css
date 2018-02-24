@@ -1,0 +1,58 @@
+@charset "utf-8";
+/*! Fonts */
+.title {
+ font-family: 'Arvo', serif;
+}
+.subtitle {
+	font-family: 'Spectral SC', serif;
+}
+.subtitle-body {
+  padding-top: 2em;
+  padding-bottom: 1em;
+}
+.sub {
+  font-family: 'Spectral', serif;
+  padding-bottom: 0.5em;
+}
+body {
+	font-family: 'Montserrat', sans-serif;
+}
+.body-text {
+  padding-left: 10%;
+  padding-right: 10%;
+}
+/*! /Fonts */.logo-top {
+	width: 3em;
+
+}
+.lime {
+	color: #9cff00;
+}
+.nav-color {
+	background-color: #1C263C;
+}
+.white {
+	color: #FFFFFF;
+}
+.vl {
+    border-left: 2px solid grey;
+    height: 70%;
+    position: absolute;
+
+}
+.a:hover {
+  color: #00000;
+  border-color: #000000;
+}
+.footer {
+  position: absolute;
+  margin-bottom: 0.3em;
+  background-color: light gray;
+  width: 100%
+}
+.barcode {
+  font-family: 'Libre Barcode 39 Text', cursive;
+}
+a {
+  color: #00000
+}
