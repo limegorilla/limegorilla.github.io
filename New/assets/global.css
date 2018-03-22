@@ -1,149 +1,155 @@
-/* Global site implementation - includes Fonts (Copyright Google Fonts) */
+/* Fonts */
 
-/* FONTS */
-/* Copyright Google, 2018 */
-/* SOURCE: https://fonts.google.com/ */
-
-.title, .logo{
-    font-family: 'Arvo', serif;
-}
-.em, .sub{
-    font-family: 'IBM Plex Mono', monospace;
-}
-.global{
-    font-family: 'IBM Plex Sans', sans-serif;
-}
-.footer{
-    font-family: 'Libre Barcode 39 Text', cursive;
+.title{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 2em;
 }
 
-/* Text Styling */
-
+.big{
+	font-size: 5em;
+}
 .lime{
-    color: #57ff60
+	color: #57ff60;
 }
-.white{
-    color: #ffffff
+.back_w{
+	background-color: #fff;
 }
-.black{
-    color: #000000
-}
-.link{
-    text-decoration: none;
-    text-decoration-color: none;
-}
-
-
-/* Navigation (NAV) */
-
-.nav {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
-  padding-left: 0;
-  margin-bottom: 0;
-  list-style: none;
-}
-
-.nav-link {
-  display: block;
-  padding: 0.5rem 1rem;
-}
-
-.nav-link:hover, .nav-link:focus {
-  text-decoration: none;
-}
-
-.nav-link.disabled {
-  color: #6c757d;
-}
-
-.nav-tabs {
-  border-bottom: 1px solid #dee2e6;
-}
-
-.nav-tabs .nav-item {
-  margin-bottom: -1px;
-}
-
-.nav-tabs .nav-link {
-  border: 1px solid transparent;
-  border-top-left-radius: 0.25rem;
-  border-top-right-radius: 0.25rem;
-}
-
-.nav-tabs .nav-link:hover, .nav-tabs .nav-link:focus {
-  border-color: #e9ecef #e9ecef #dee2e6;
-}
-
-.nav-tabs .nav-link.disabled {
-  color: #6c757d;
-  background-color: transparent;
-  border-color: transparent;
-}
-
-.nav-tabs .nav-link.active,
-.nav-tabs .nav-item.show .nav-link {
-  color: #495057;
-  background-color: #fff;
-  border-color: #dee2e6 #dee2e6 #fff;
-}
-
-.nav-tabs .dropdown-menu {
-  margin-top: -1px;
-  border-top-left-radius: 0;
-  border-top-right-radius: 0;
-}
-
-.nav-pills .nav-link {
-  border-radius: 0.25rem;
-}
-
-.nav-pills .nav-link.active,
-.nav-pills .show > .nav-link {
-  color: #fff;
-  background-color: #007bff;
-}
-
-.nav-fill .nav-item {
-  -webkit-box-flex: 1;
-  -ms-flex: 1 1 auto;
-  flex: 1 1 auto;
-  text-align: center;
-}
-
-.nav-justified .nav-item {
-  -ms-flex-preferred-size: 0;
-  flex-basis: 0;
-  -webkit-box-flex: 1;
-  -ms-flex-positive: 1;
-  flex-grow: 1;
-  text-align: center;
-}
-
-.tab-content > .tab-pane {
-  display: none;
-}
-
-.tab-content > .active {
-  display: block;
+.text_w{
+	color: #fff
 }
 
 
 
+/* Navigation */
+nav{
+	background-color: #57ff60;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+}
+.nav a {
+	float: left;
+	display: block;
+	color: #f2f2f2;
+	text-align: center;
+	padding-top: 20px;
+	padding-right: 16px;
+	padding-left: 16px;
+	padding-bottom: 20px;
+	text-decoration: none;
+}
+
+.nav a:hover {
+    background: #ddd;
+    color: black;
+}
 
 
 
+/* Main content */
+.main {
+	margin-top: 95px;
+	width: 100%;
+}
+.bag_g{
+	background-color: #57ff60;
+}
 
 
 
+/* Positioning (pos_xy) in em */
+.lock_left{
+	left: 0;
+}
+.lock_right{
+	right: 0;
+}
+.pos_l1{
+	margin-left: 1em;
+}
+.pos_l2{
+	margin-left: 2em;
+}
+.pos_l3{
+	margin-left: 3em;
+}
+.pos_l4{
+	margin-left: 4em;
+}
+
+/* Padding (mag_xy) in em */
+
+.pad_l1{
+	padding-left: 1em;
+}
+.pad_l2{
+	padding-left: 2em;
+}
+.pad_l3{
+	padding-left: 3em;
+}
+.pad_l4{
+	padding-left: 4em;
+}
 
 
+.pad_t1{
+	padding-top: 1em;
+}
+.pad_t2{
+	padding-top: 2em;
+}
+.pad_t3{
+	padding-top: 3em;
+}
+.pad_t4{
+	padding-top: 4em;
+}
 
 
+.pad_d1{
+	padding-bottom: 1em;
+}
+.pad_d2{
+	padding-bottom: 2em;
+}
+.pad_d3{
+	padding-bottom: 3em;
+}
+.pad_d4{
+	padding-bottom: 4em;
+}
 
-/* Document written by Liam Doyle, March 2018 */
-/* Copyright Liam Doyle, 2018 - LimeGorilla, 2018 */
-/* Some items are subject to copyright */
+
+.pad_r1{
+	padding-right: 1em;
+}
+.pad_r2{
+	padding-right: 2em;
+}
+.pad_r3{
+	padding-right: 3em;
+}
+.pad_r4{
+	padding-right: 4em;
+}
+
+/* Special a */
+.pad_a0-3{
+	padding: 0.3em;
+}
+/* End Special */
+
+.pad_a1{
+	padding: 1em;
+}
+.pad_a2{
+	padding: 2em;
+}
+.pad_a3{
+	padding: 3em;
+}
+.pad_a4{
+	padding: 4em;
+}
