@@ -1,33 +1,72 @@
 <!doctype html>
-<html>
-	
-<head>
-		
-		<title>Welcome! - LimeGorilla</title>
-		
-		<!-- Google Fonts ( https://fonts.google.com ) -->
-		<link href="https://fonts.googleapis.com/css?family=Open+Sans:700,800" rel="stylesheet">
-		
-		<!-- Local CSS (/Assets) -->
-		
-		<!-- Global CSS (Applies to entire site) -->
-		<link href="assets/global.css" rel="stylesheet" type="text/css">
-		<!-- Page Specific CSS (Applies to this page only) -->
-		<link href="assets/index.css" rel="stylesheet" type="text/css">
-		
-</head>
-	
-	<body class="main">
-		
-		<nav class="nav">
-			<h1 class="title pos_l3"><strong><span class="back_w pad_a0-3"><span class="lime">Lime</span>Gorilla</span></strong></h1>
-		</nav>
-		<section class="bag_g">
-		<h1 style="padding-top: 1em; padding-bottom: 1em;" class="title big pos_l1">
-			<span class="text_w pad_a0-3">Welcome to LimeGorilla,Version 2</span>
-		</h1>
-		</section>
-   
-    </body>
+
+<html lang="en">
+
+    <head>
+        
+        <!-- Meta Tagging -->
+        <meta charset="utf-8">
+        <meta name="description" content="The official home of LimeGorilla">
+        <!-- Google Sign-in -->
+        <meta name="google-signin-client_id" content="741284464172-bcql6ap6qll1rplllsrjdj7m2g5tilnk.apps.googleusercontent.com">
+        <!-- Links -->
+        <link href="assets/global.css" rel="stylesheet" type="text/css">
+        <title>LimeGorilla | Home</title>
+        <script>
+        
+            function onSuccess(googleUser) {
+    var profile = googleUser.getBasicProfile();
+    gapi.client.load('plus', 'v1', function () {
+        var request = gapi.client.plus.people.get({
+            'userId': 'me'
+        });
+        //Display the user details
+        request.execute(function (resp) {
+            var profileHTML = '<div class="profile"><div class="head">Welcome '+resp.name.givenName+'! <a href="javascript:void(0);" onclick="signOut();">Sign out</a></div>';
+            profileHTML += '<img src="'+resp.image.url+'"/><div class="proDetails"><p>'+resp.displayName+'</p><p>'+resp.emails[0].value+'</p><p>'+resp.gender+'</p><p>'+resp.id+'</p><p><a href="'+resp.url+'">View Google+ Profile</a></p></div></div>';
+            $('.userContent').html(profileHTML);
+            $('#gSignIn').slideUp('slow');
+        });
+    });
+}
+function onFailure(error) {
+    alert(error);
+}
+function renderButton() {
+    gapi.signin2.render('gSignIn', {
+        'scope': 'profile email',
+        'width': 240,
+        'height': 50,
+        'longtitle': true,
+        'theme': 'dark',
+        'onsuccess': onSuccess,
+        'onfailure': onFailure
+    });
+}
+function signOut() {
+    var auth2 = gapi.auth2.getAuthInstance();
+    auth2.signOut().then(function () {
+        $('.userContent').html('');
+        $('#gSignIn').slideDown('slow');
+    });
+}
+            
+        </script>
+    </head>
     
+    <!-- HTML for render Google Sign-In button -->
+<div id="gSignIn"></div>
+<!-- HTML for displaying user details -->
+<div class="userContent"></div>
+    
+    
+    
+    <body>
+    
+        
+        <!-- Google Sign-in -->
+        <script src="https://apis.google.com/js/platform.js" async defer></script>
+        <script src="https://apis.google.com/js/client:platform.js?onload=renderButton" async defer></script>
+        <script src="jquery.min.js"></script>
+    </body>
 </html>
