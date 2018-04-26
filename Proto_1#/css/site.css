@@ -1,0 +1,39 @@
+.title {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+}
+
+.sub {
+    font-family: 'IBM Plex Mono', monospace;
+    font-weight: 700;
+}
+
+.text {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+}
+
+.lime {
+    text-decoration-color: '#57ff60';
+}
+
+.section_green {
+    padding: 4em;
+    background-color: #57ff60;
+}
+
+.title-main {
+    font-size: 5em;
+}
+
+.sub-main {
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    line-height: 1.7em;
+}
+
+.text-main {}
+
+.section-welcome {
+    padding-left: '5em';
+}
