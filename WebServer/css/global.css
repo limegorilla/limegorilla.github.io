@@ -1,0 +1,149 @@
+/*
+
+=======================
+##### LIMEGORILLA #####
+=======================
+
+Welcome to the offical page for LimeGorilla!
+This page is hosted at:
+
+https://limegorilla.github.io
+
+=======================
+###### THIS PAGE ######
+=======================
+
+Filename: global.css
+Location: /css/
+Linked to: index.html,
+Creation date: 11/MAY/18
+Licence: MIT
+Last edit user: Skybook (limegorilla)
+Last edit date: 11/MAY/18
+Last edit usno: qoe904
+
+=======================
+
+This webpage is still in beta.
+If you are seeing this, chances
+are you have selected the
+"View Source" button. Just hit
+back if your lost. If you intentionally
+hit the button, welcome to the Source
+code!
+
+==
+
+If you want to keep up to date with development
+of this and any of my other projects,
+visit the DevCenter webpage
+on the local filesys by going to the webpage
+(dev.html) or viewing the docs at:
+/dev/docs/timeline-addin.htm
+
+========================
+# limegorilla.guhub.io #
+========================
+
+*/
+body{
+  background-color: #57ff60;
+}
+.title{
+  font-family: 'Raleway', sans-serif;
+}
+.nav{
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+  background: rgb(255,255,255);
+  background:rgba(255, 255, 255, 0.85);
+  border-radius: 10px;
+  opacity:60;
+}
+.logo-center{
+  text-align: center;
+  padding:1%;
+}
+.nav-title{
+  font-family: 'Raleway', sans-serif;
+  font-weight:800;
+}
+.bg-g{
+  background:#57ff60;
+  color:#fff;
+  padding:0.1em;
+}
+.nav-selector{
+  list-style: none;
+  justify-content: center;
+}
+.nav-selector, li{
+  display: inline-block;
+}
+.nav-left{
+  float:left;
+}
+.nav-right{
+  float:right;
+}
+.nav-item{
+  
+}
+.container{
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  background: rgb(255,255,255);
+  background:rgba(255, 255, 255, 0.9);
+  border-radius: 10px;
+  padding:1em;
+}
+.cont-title{
+  font-family: 'Reem Kufi', sans-serif;
+}
+a{
+  text-decoration: none;
+  color: #000;
+  -o-transition:color .2s ease-out, background 1s ease-in;
+  -ms-transition:color .2s ease-out, background 1s ease-in;
+  -moz-transition:color .2s ease-out, background 1s ease-in;
+  -webkit-transition:color .2s ease-out, background 1s ease-in;
+  transition:color .2s ease-out, background 1s ease-in;
+}
+a:hover{
+  color: #57ff60;
+}
+.footer{
+ margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+  background: rgb(255,255,255);
+  background:rgba(255, 255, 255, 0.85);
+  border-radius: 10px;
+  opacity:60;
+}
+.float-l{
+  float:left;
+}
+.float-r{
+  float:right;
+  margin-left:10px;
+}
+
+.text{
+  font-family: 'Cabin', sans-serif;
+  font-size:1.25em;
+}
+.container-content{
+  padding:1em;
+}
+.buffer{
+  padding:1em;
+}
+
+
+
+
+/* TESTTTTT */
+
