@@ -53,13 +53,14 @@ body{
   font-family: 'Raleway', sans-serif;
 }
 .nav{
-  margin-left: auto;
-  margin-right: auto;
-  width: 60%;
-  background: rgb(255,255,255);
-  background:rgba(255, 255, 255, 0.85);
-  border-radius: 10px;
-  opacity:60;
+	margin-left: auto;
+	margin-right: auto;
+	width: 60%;
+	background: rgb(255,255,255);
+	background: rgba(255, 255, 255, 0.85);
+	border-radius: 10px;
+	opacity: 60;
+	margin-top: 25px;
 }
 .logo-center{
   text-align: center;
@@ -91,13 +92,17 @@ body{
   
 }
 .container{
-  margin-left: auto;
-  margin-right: auto;
-  width: 80%;
-  background: rgb(255,255,255);
-  background:rgba(255, 255, 255, 0.9);
-  border-radius: 10px;
-  padding:1em;
+	margin-left: auto;
+	margin-right: auto;
+	width: 80%;
+	background: rgb(255,255,255);
+	background: rgba(255, 255, 255, 0.9);
+	border-radius: 10px;
+	padding: 1em;
+	-webkit-box-shadow: 15px 15px 144px #414141;
+	box-shadow: 15px 15px 144px #414141;
+	margin-top: 90px;
+	margin-bottom: 60px;
 }
 .cont-title{
   font-family: 'Reem Kufi', sans-serif;
@@ -139,11 +144,10 @@ a:hover{
   padding:1em;
 }
 .buffer{
-  padding:1em;
+
 }
 
 
 
 
 /* TESTTTTT */
-
