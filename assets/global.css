@@ -1,0 +1,71 @@
+/* CSS Document */
+
+@font-face {
+    font-family: 'Nexa-Bold';
+    src: url('Nexa_Free_Bold-webfont.woff2') format('woff2'), url('Nexa_Free_Bold-webfont.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Nexa-Light';
+    src: url('Nexa_Free_Light-webfont.woff2') format('woff2'), url('Nexa_Free_Light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.title {
+    font-family: 'Nexa-Bold';
+}
+
+.footer {
+    font-family: 'Questrial', sans-serif;
+}
+
+.text {
+    font-family: 'Nexa-Light';
+}
+
+.nav {
+    margin: 0;
+    padding: 0;
+    width: 25%;
+    height: 100%;
+    position: fixed;
+    overflow: auto;
+}
+.n-logo{
+	padding-left: 15%;
+	font-size: 2em;
+}
+.n-list{
+	text-align: center;
+	
+}
+.active{
+	
+}
+li {
+    display: block;
+    font-family: 'Nexa-Bold';
+    width: 60px;
+    padding: 10%;
+    margin: auto;
+
+}
+
+a {
+    color: #4F4F4F;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #000000;
+}
+.content{
+	margin-left: 27%;
+	font-family: 'Nexa-Light';
+}
+footer{
+	background-color: #ffffff;
+}
