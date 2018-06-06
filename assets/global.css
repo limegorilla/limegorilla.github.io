@@ -33,10 +33,11 @@
     height: 100%;
     position: fixed;
     overflow: auto;
+	overflow-x: hidden;
 }
 .n-logo{
 	padding-left: 15%;
-	font-size: 2em;
+	font-size: 4em;
 }
 .n-list{
 	text-align: center;
@@ -68,4 +69,7 @@ a:hover {
 }
 footer{
 	background-color: #ffffff;
+}
+img, .g-logo {
+	height: 0.7em;
 }

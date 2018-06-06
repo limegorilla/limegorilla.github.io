@@ -1,10 +1,77 @@
 <!doctype html>
 <html>
+
 <head>
-<meta charset="utf-8">
-<title>Untitled Document</title>
+
+    <!-- Meta Tagging
+=====================-->
+    <meta charset="UTF-8">
+    <meta name="description" content="Liam Doyle's official webpage">
+    <meta name="keywords" content="Liam Doyle,Liam,limegorilla,Lime Gorilla,Web Designer">
+    <meta name="author" content="Liam Doyle">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Liam Doyle</title>
+
+    <!-- Links
+==============-->
+    <link href="assets/global.css" rel="stylesheet" type="text/css">
+    <link href="assets/index.css" rel="stylesheet" type="text/css">
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/ico/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/ico/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="assets/ico/android-chrome-192x192.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/ico/favicon-16x16.png">
+    <link rel="manifest" href="assets/ico/site.webmanifest">
+    <link rel="mask-icon" href="assets/ico/safari-pinned-tab.svg" color="#00a3ff">
+    <link rel="shortcut icon" href="assets/ico/favicon.ico">
+    <meta name="apple-mobile-web-app-title" content="liamdoyle.co">
+    <meta name="application-name" content="liamdoyle.co">
+    <meta name="msapplication-TileColor" content="#603cba">
+    <meta name="msapplication-TileImage" content="assets/ico/mstile-144x144.png">
+    <meta name="msapplication-config" content="assets/ico/browserconfig.xml">
+    <meta name="theme-color" content="5b14ff">
+    <!-- Fonts
+==============-->
+    <link href="https://fonts.googleapis.com/css?family=Cabin:500|Oxygen|Questrial|Raleway:900" rel="stylesheet">
+    <!-- Scripts
+================-->
+    <script type="text/javascript">
+        console.log('Screen width: ' + screen.width);
+        if (screen.width <= 700 && !sessionStorage.getItem("redirecting")) {
+            window.location.replace("./m/index.html"); //path to your mobile site
+        }
+    </script>
+    <script>
+        $('a[href="http://liamdoyle.co/"]').click(function() {
+            sessionStorage.setItem("redirecting", "1")
+        });
+        //where example.com = your desktop site
+    </script>
 </head>
 
 <body>
+
+    <!-- Main content
+=====================-->
+
+    <nav class="nav">
+        <h1 class="title n-logo"><a href="index.html">Liam<br><img class="g-logo" alt="LiamLogo" src="assets/ico/mstile-144x144.png"> Doyle</a></h1>
+        <ul class="n-list">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li class="active">Projects</li>
+			<li><a href="school.html">School</a></li>
+        </ul>
+        <div class="sidefoot"></div>
+
+    </nav>
+
+    <div class="content">
+        <div class="i-title">Hi. I'm Liam.</div>
+        <div class="c-text">And this is is new! Welcome to the (very) early beta of <a href="https://liamdoyle.co/"><em>liamdoyle.co</em></a><br>This, for future refrence is V-0.1A-060618</div>
+
+    </div>
+
 </body>
+
 </html>
