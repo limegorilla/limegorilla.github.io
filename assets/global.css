@@ -34,10 +34,12 @@
     position: fixed;
     overflow: auto;
 	overflow-x: hidden;
+	background-color: #5b14ff;
+	color: #FFFFFF
 }
 .n-logo{
 	padding-left: 15%;
-	font-size: 4em;
+	font-size: 3em;
 }
 .n-list{
 	text-align: center;
@@ -50,7 +52,7 @@ li {
     display: block;
     font-family: 'Nexa-Bold';
     width: 60px;
-    padding: 10%;
+    padding: 5%;
     margin: auto;
 
 }
