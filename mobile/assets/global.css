@@ -46,16 +46,9 @@ html{
 
 a{
     text-decoration: none;
-    color: black;
-    -o-transition:.7s;
-    -ms-transition:.7s;
-    -moz-transition:.7s;
-    -webkit-transition:.7s;
-    transition:.7s;
-}
-a:hover{
+    color: white;
     background-color: blue;
-    color: white;    
+    padding: 1em
 }
 .f-lft{
     float: left;
@@ -77,21 +70,15 @@ a:hover{
 /* Navigation */
 .nav{
     background-color: white;
-    bottom: 0;
-    top: 0;
-    left: 0;
-	position: fixed;
-	overflow: auto;
-    width: 30%;
+    text-align: center;
+    margin: 2em;
 }
 .nav-title{
-    padding-left: 15%;
     padding-top: 20%;
     font-size: 1.5em;
 }
 .links{
     font-family: 'Arvo', serif;
-    padding-left: 10%
 }
 .list-item{
     padding-top: 10%;
@@ -103,7 +90,6 @@ a:hover{
 }
 /* Content */
 .content{
-    margin-left: 30%;
     right: 0;
 }
 .content-cont{
