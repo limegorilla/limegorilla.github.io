@@ -1,0 +1,113 @@
+.container {
+
+}
+
+.logo {
+  font-family: nexa_bold;
+}
+
+#loader {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  -webkit-animation: color-change 3s infinite;
+  -moz-animation: color-change 3s infinite;
+  -o-animation: color-change 3s infinite;
+  -ms-animation: color-change 3s infinite;
+  animation: color-change 3s infinite;
+}
+
+@-webkit-keyframes color-change {
+    0% { color: black; }
+    50% { color: blue; }
+    100% { color: black; }
+}
+@-moz-keyframes color-change {
+  0% { color: black; }
+  50% { color: blue; }
+  100% { color: black; }
+}
+@-ms-keyframes color-change {
+  0% { color: black; }
+  50% { color: blue; }
+  100% { color: black; }
+}
+@-o-keyframes color-change {
+  0% { color: black; }
+  50% { color: blue; }
+  100% { color: black; }
+}
+@keyframes color-change {
+  0% { color: black; }
+  50% { color: blue; }
+  100% { color: black; }
+}
+
+
+
+
+
+
+
+
+
+
+
+/* Add animation to "page content" */
+.animate-bottom {
+  position: relative;
+  -webkit-animation-name: animatebottom;
+  -webkit-animation-duration: 1s;
+  animation-name: animatebottom;
+  animation-duration: 1s
+}
+
+@-webkit-keyframes animatebottom {
+  from { bottom:-100px; opacity:0 }
+  to { bottom:0px; opacity:1 }
+}
+
+@keyframes animatebottom {
+  from{ bottom:-100px; opacity:0 }
+  to{ bottom:0; opacity:1 }
+}
+
+#content {
+  display: none;
+}
+/* divs */
+.n1{
+    background-image: url('1.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;;
+    height: 100%;
+}
+.n2{
+  background-image: url('2.png') others;
+}
+
+
+/* Titles, sub ect */
+.i-title{
+  -webkit-animation: color-change 3s infinite;
+  -moz-animation: color-change 3s infinite;
+  -o-animation: color-change 3s infinite;
+  -ms-animation: color-change 3s infinite;
+  animation: color-change 3s infinite;
+  font-family: nexa_bold;
+  padding: 0.2em;
+  background-color: #fff;
+}
+
+/* MINI NAV */
+.mini-nav{
+  list-style: none;
+  font-family: nexa_light
+}
+.mini-item{
+  padding: 0.2em;
+  background-color: #fff;
+  display: inline;
+}

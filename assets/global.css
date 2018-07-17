@@ -41,7 +41,6 @@ All rights reserved.
 
 */
 html{
-	background-color: blue;
 }
 
 a{
@@ -55,7 +54,7 @@ a{
 }
 a:hover{
     background-color: blue;
-    color: white;    
+    color: white;
 }
 .f-lft{
     float: left;
@@ -70,6 +69,10 @@ a:hover{
 /* Fonts */
 .title{
     font-family: nexa_bold;
+		font-size: 5em;
+}
+.s-title{
+	font-family: nexa_bold;
 }
 .text{
     font-family: nexa_light;
@@ -90,7 +93,8 @@ a:hover{
     font-size: 1.5em;
 }
 .links{
-    font-family: 'Arvo', serif;
+    font-family: 'Work Sans', sans-serif;
+		font-weight: 400;
     padding-left: 10%
 }
 .list-item{
@@ -99,22 +103,13 @@ a:hover{
     list-style: none;
 }
 .n-title{
-    font-family: 'Arvo', serif;
+    font-family: 'Work Sans', sans-serif;
+
 }
 /* Content */
 .content{
     margin-left: 30%;
     right: 0;
-}
-.content-cont{
-    background-color: white;
-    margin: 2em;
-    padding:0.5em;
-    border-bottom-left-radius: 20px;
-    border-bottom-right-radius: 20px;
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
-    text-align: center;
 }
 .footer{
     background-color: white;
