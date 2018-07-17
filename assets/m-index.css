@@ -45,9 +45,9 @@
 }
 
 
-
-
-
+.footer{
+    padding-left: 10%;
+}
 
 
 
@@ -100,4 +100,5 @@
 .mini-item{
   background-color: #fff;
   display: inline;
+padding: 5px;
 }
