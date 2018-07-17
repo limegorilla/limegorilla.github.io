@@ -54,19 +54,15 @@ All rights reserved.
     <!-- Fonts (25-6-18)
 ==================-->
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:600" rel="stylesheet">
-    <link href="assets/index.css" rel="stylesheet">
+    <link rel="stylesheet" media="screen and (min-width: 700px)" href="assets/index.css">
+    <link rel="stylesheet" media="screen and (max-width: 699px)" href="assets/m-index.css">
     <link href="assets/fonts/font.css" rel="stylesheet">
-    <link href="assets/global.css" rel="stylesheet">
+    <link rel="stylesheet" media="screen and (min-width: 700px)" href="assets/global.css">
+    <link rel="stylesheet" media="screen and (max-width: 699px)" href="assets/mobile.css">
     <!-- JavaScript (25-6-18)
 =======================-->
     <!-- Script to switch between / (for desktop) and /mobile/ (for mobile) if screen size is < or > than 720 (25-6-18)
 =================================================================================================================-->
-    <script type="text/javascript">
-        if (screen.width <= 699) {
-            document.location = "https://limegorilla.github.io/mobile/";
-        }
-
-    </script>
 
 
 </head>
@@ -87,47 +83,39 @@ All rights reserved.
                     <li class="mini-item"><a href="new.html">Projects & Experiments</a></li>
                     <li class="mini-item"><a href="gallery.html">Gallery</a></li>
                 </ul>
-                <div>
+            </div>
 
-                    <div class="n2">
-                        <h1 class="i-title">Something.</h1>
-                        <div>
+            <div class="n2">
+                <h1 class="i-title">Something.</h1>
+            </div>
+
+            <div class="footer">
+                <div class="footer-container">
+                    <div class="f-lft">
+                        <h1 class="s-title">LiamDoyle.CO</h1>
+                        <p class="text">A Liam Doyle creation.<br>Part of the LimeGorilla Network.<br>Property, rights go to Liam H. Doyle, All rights reserved, 2018.<br><a href="example.com">Nexa Font</a><br><a href="example.com">Google Fonts</a></p>
+                    </div>
+                    <div class="f-rht">
+                        <p class="text"><a href="https://limegorilla.github.io">LimeGorilla</a><br><a href="https://limegorilla.github.io/experiments.html">Experiments</a><br><a href="legal.html">Legal</a><br><a href="sitemap.html">Sitemap</a><br><a href="https://facebook.com/limegorilla" class="img-link"></a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
 
+    <script>
+        var myVar;
 
+        function myFunction() {
+            myVar = setTimeout(showPage, 5000);
+        }
 
-
-
-
-
-
-
-                            <div class="footer">
-                                <div class="footer-container">
-                                    <div class="f-lft">
-                                        <h1 class="s-title">LiamDoyle.CO</h1>
-                                        <p class="text">A Liam Doyle creation.<br>Part of the LimeGorilla Network.<br>Property, rights go to Liam H. Doyle, All rights reserved, 2018.<br><a href="example.com">Nexa Font</a><br><a href="example.com">Google Fonts</a></p>
-                                    </div>
-                                    <div class="f-rht">
-                                        <p class="text"><a href="https://limegorilla.github.io">LimeGorilla</a><br><a href="https://limegorilla.github.io/experiments.html">Experiments</a><br><a href="legal.html">Legal</a><br><a href="sitemap.html">Sitemap</a><br><a href="https://facebook.com/limegorilla" class="img-link"></a></p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div>
-
-                                <script>
-                                    var myVar;
-
-                                    function myFunction() {
-                                        myVar = setTimeout(showPage, 5000);
-                                    }
-
-                                    function showPage() {
-                                        document.getElementById("loader").style.display = "none";
-                                        document.getElementById("content").style.display = "block";
-                                    }
-
-                                </script>
+        function showPage() {
+            document.getElementById("loader").style.display = "none";
+            document.getElementById("content").style.display = "block";
+        }
+    </script>
 
 </body>
 

@@ -1,0 +1,15 @@
+nav {
+    display: none;
+}
+
+.title {
+    font-family: nexa_bold;
+    font-size: 5em;
+}
+
+.s-title {
+    font-family: nexa_bold;
+}
+
+.text {
+    font-family: nexa_light;
