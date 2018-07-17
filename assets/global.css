@@ -40,6 +40,19 @@ and sound is property of Liam H. Doyle, 2018.
 All rights reserved.
 
 */
+
+
+
+/* @Media Queries */
+
+.showHide { display:none; }
+
+/* Desktop*/
+@media (min-width: 768px) {
+  nav  { display: block; }
+}
+
+
 html{
 }
 
@@ -120,3 +133,4 @@ a:hover{
 .footer-container{
     padding:2em;
 }
+

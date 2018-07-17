@@ -40,59 +40,58 @@ All rights reserved.
 -->
 
 <html>
-	<head>
 
-		<!-- Title, Meta tags (25-6-18)
+<head>
+
+    <!-- Title, Meta tags (25-6-18)
 =============================-->
-		<title>LiamDoyle.Co</title>
-        <meta charset="UTF-8">
-        <meta name="description" content="Professional Web Design, Video & Photography.">
-        <meta name="keywords" content="Liam,Doyle,LimeGorilla,Lime,Gorilla,Web,Design,Videography,Photography">
-        <meta name="author" content="Liam Doyle">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<!-- Fonts (25-6-18)
+    <title>LiamDoyle.Co</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="Professional Web Design, Video & Photography.">
+    <meta name="keywords" content="Liam,Doyle,LimeGorilla,Lime,Gorilla,Web,Design,Videography,Photography">
+    <meta name="author" content="Liam Doyle">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Fonts (25-6-18)
 ==================-->
-        <link href="https://fonts.googleapis.com/css?family=Open+Sans:600" rel="stylesheet">
-				<link href="assets/index.css" rel="stylesheet">
-				<link href="assets/fonts/font.css" rel="stylesheet">
-				<link href="assets/global.css" rel="stylesheet">
-		<!-- JavaScript (25-6-18)
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:600" rel="stylesheet">
+    <link href="assets/index.css" rel="stylesheet">
+    <link href="assets/fonts/font.css" rel="stylesheet">
+    <link href="assets/global.css" rel="stylesheet">
+    <!-- JavaScript (25-6-18)
 =======================-->
-        <!-- Script to switch between / (for desktop) and /mobile/ (for mobile) if screen size is < or > than 720 (25-6-18)
+    <!-- Script to switch between / (for desktop) and /mobile/ (for mobile) if screen size is < or > than 720 (25-6-18)
 =================================================================================================================-->
-<script type="text/javascript">
+    <script type="text/javascript">
+        if (screen.width <= 699) {
+            document.location = "https://limegorilla.github.io/mobile/";
+        }
 
-if (screen.width <= 699) {
-document.location = "https://limegorilla.github.io/mobile/";
-}
-
-</script>
-
-
-	</head>
-	<body>
+    </script>
 
 
- </head>
- <body onload="myFunction()" style="margin:0;">
+</head>
 
- <div id="loader"><h1 class="logo">Liam Doyle.<br></h1></div>
+<body onload="myFunction()" style="margin:0;">
 
- <div style="display:none;" id="content" class="animate-bottom">
+    <div id="loader">
+        <h1 class="logo">Liam Doyle.<br></h1>
+    </div>
 
-	 <div class="n1">
-		 <h1 class="i-title">Welcome.</h1>
-		 <div class="mini-nav">
-			 <ul>
-				 <li class="mini-item"><a href="about.html">About Me</a></li>
-				 <li class="mini-item"><a href="new.html">Projects & Experiments</a></li>
-				 <li class="mini-item"><a href="gallery.html">Gallery</a></li>
-			</ul>
-<div>
+    <div style="display:none;" id="content" class="animate-bottom">
 
-			<div class="n2">
-	 		 <h1 class="i-title">Something.</h1>
-			 <div>
+        <div class="n1">
+            <h1 class="i-title">Welcome.</h1>
+            <div class="mini-nav">
+                <ul>
+                    <li class="mini-item"><a href="about.html">About Me</a></li>
+                    <li class="mini-item"><a href="new.html">Projects & Experiments</a></li>
+                    <li class="mini-item"><a href="gallery.html">Gallery</a></li>
+                </ul>
+                <div>
+
+                    <div class="n2">
+                        <h1 class="i-title">Something.</h1>
+                        <div>
 
 
 
@@ -103,31 +102,33 @@ document.location = "https://limegorilla.github.io/mobile/";
 
 
 
- <div class="footer">
- 		<div class="footer-container">
- 				<div class="f-lft">
- 						<h1 class="s-title">LiamDoyle.CO</h1>
- 						<p class="text">A Liam Doyle creation.<br>Part of the LimeGorilla Network.<br>Property, rights go to Liam H. Doyle, All rights reserved, 2018.<br><a href="example.com">Nexa Font</a><br><a href="example.com">Google Fonts</a></p>
- 				</div>
- 				<div class="f-rht">
- 						<p class="text"><a href="https://limegorilla.github.io">LimeGorilla</a><br><a href="https://limegorilla.github.io/experiments.html">Experiments</a><br><a href="legal.html">Legal</a><br><a href="sitemap.html">Sitemap</a><br><a href="https://facebook.com/limegorilla" class="img-link"></a></p>
- 				</div>
- 		</div>
- </div>
- <div>
+                            <div class="footer">
+                                <div class="footer-container">
+                                    <div class="f-lft">
+                                        <h1 class="s-title">LiamDoyle.CO</h1>
+                                        <p class="text">A Liam Doyle creation.<br>Part of the LimeGorilla Network.<br>Property, rights go to Liam H. Doyle, All rights reserved, 2018.<br><a href="example.com">Nexa Font</a><br><a href="example.com">Google Fonts</a></p>
+                                    </div>
+                                    <div class="f-rht">
+                                        <p class="text"><a href="https://limegorilla.github.io">LimeGorilla</a><br><a href="https://limegorilla.github.io/experiments.html">Experiments</a><br><a href="legal.html">Legal</a><br><a href="sitemap.html">Sitemap</a><br><a href="https://facebook.com/limegorilla" class="img-link"></a></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div>
 
- <script>
- var myVar;
+                                <script>
+                                    var myVar;
 
- function myFunction() {
-     myVar = setTimeout(showPage, 5000);
- }
+                                    function myFunction() {
+                                        myVar = setTimeout(showPage, 5000);
+                                    }
 
- function showPage() {
-   document.getElementById("loader").style.display = "none";
-   document.getElementById("content").style.display = "block";
- }
- </script>
+                                    function showPage() {
+                                        document.getElementById("loader").style.display = "none";
+                                        document.getElementById("content").style.display = "block";
+                                    }
 
-	</body>
+                                </script>
+
+</body>
+
 </html>
