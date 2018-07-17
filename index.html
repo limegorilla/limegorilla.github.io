@@ -60,13 +60,13 @@ All rights reserved.
 =======================-->
         <!-- Script to switch between / (for desktop) and /mobile/ (for mobile) if screen size is < or > than 720 (25-6-18)
 =================================================================================================================-->
-        <script type="text/javascript">
-            $(window).on('load resize', function(){
-                if($window).width() < 720){
-                    window.location = "https://liamdoyle.co/mobile/index.html"
-                }
-            })
-        </script>
+<script type="text/javascript">
+
+if (screen.width <= 699) {
+document.location = "https://limegorilla.github.io/mobile/";
+}
+
+</script>
 
 
 	</head>
