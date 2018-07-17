@@ -44,12 +44,8 @@ All rights reserved.
 
 
 /* @Media Queries */
-
-.showHide { display:none; }
-
-/* Desktop*/
 @media (min-width: 768px) {
-  nav  { display: block; }
+  .nav  { display: block; }
 }
 
 
