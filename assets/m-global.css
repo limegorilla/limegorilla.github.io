@@ -1,8 +1,8 @@
 #loader {
     position: absolute;
-    left: 50%;
-    top: 50%;
-    z-index: -50;
+    left: 30%;
+    top: 40%;
+    z-index: 1;
     animation-name: logo;
     animation-duration: 3s;
     animation-iteration-count: infinite;
