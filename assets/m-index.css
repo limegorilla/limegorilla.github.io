@@ -1,0 +1,54 @@
+/* Divs */
+
+.d1 {
+    background-color: #5271ff;
+    padding: 2em;
+    font-family: 'Montserrat', sans-serif;
+    text-align: left;
+    color: #fff;
+}
+
+.d2 {
+    margin: 2em;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.d3 {
+    background-color: #57ff60;
+    padding: 1em;
+}
+
+.d4 {
+    background-color: lightblue;
+    padding: 1em;
+}
+
+.d-title {
+    font-family: Nexa_bold;
+    color: 000;
+}
+
+.d-txt {
+    font-family: Montserrat;
+    padding-left: 20px;
+    color: 000;
+}
+
+.limegorilla-btn {
+    font-family: nexa_bold;
+    padding: 10px;
+    background-color: #57ff60;
+    border-radius: 10px;
+    box-shadow: none;
+    font-size: 1.2em;
+
+}
+
+.netduma-btn {
+    font-family: nexa_bold;
+    padding: 10px;
+    background-color: lightblue;
+    border-radius: 10px;
+    box-shadow: none;
+    font-size: 1.2em;
+}
