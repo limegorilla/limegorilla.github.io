@@ -1,0 +1,69 @@
+/* General */
+
+body {
+    margin: 0;
+    background-color: #ecf4be;
+}
+
+nav {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.topnav {
+    background-color: #f4f7e1;
+    position: fixed;
+    width: 100%;
+    overflow: hidden;
+    top: 0;
+}
+
+.bottomnav {
+    background-color: #293954;
+    position: fixed;
+    width: 100%;
+    overflow: hidden;
+    bottom: 0;
+}
+
+.nav {
+    padding: 1em;
+}
+
+.nav-left {
+    display: none;
+}
+
+.nav-right {
+    display: none;
+}
+
+.nav-mobile {
+    text-align: center;
+}
+
+.navtitle {
+    color: #3658af;
+}
+
+.content {
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+footer {
+    background-color: #293954;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    padding: 1em;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.madeby {
+    font-family: 'Libre Barcode 128 Text', cursive;
+    color: #fff
+}
