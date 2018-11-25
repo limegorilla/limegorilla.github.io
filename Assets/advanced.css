@@ -3,6 +3,7 @@ margin: 0;
 padding: 0;
 border: none;
 list-style-type: none;
+    font-family: 'Open Sans', sans-serif;
 }
 a{
     text-decoration: none;
@@ -65,6 +66,7 @@ a{
 .big-logo{
     font-size: 9em;
     padding-top: 1em;
+    font-family: 'Niramit', sans-serif;
 }
 .thebigcanyon{
     padding: 4em
