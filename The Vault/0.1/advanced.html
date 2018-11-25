@@ -1,0 +1,54 @@
+<! Doctype = html>
+<html>
+    <head>
+    <title>Liam Doyle - Advanced</title>
+    <link href="Assets/advanced.css" rel="stylesheet" type="text/css">
+        <link href="https://fonts.googleapis.com/css?family=Niramit:700|Open+Sans" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script>
+        var myVar;
+
+        function myFunction() {
+            myVar = setTimeout(showPage, 5000);
+        }
+
+        function showPage() {
+            document.getElementById("loader").style.display = "none";
+            document.getElementById("main").style.display = "block";
+        }
+    </script>
+</head>
+
+<body onload="myFunction()">
+    <!-- Loader -->
+    <div class="loader" id="loader">
+        <div class="loader2">
+            <h1 class="logo">Advanced.</h1>
+        </div>
+        <div class="bottom">
+            <p class="sub-logo">A <a href="index.html">Liam Doyle</a> Project</p>
+            <p>Copyright 2018. Please read <a href="Ad/tandc.html">Terms and Conditions</a> before using.</p>
+        </div>
+    </div>
+    <!-- Not the loader anymore -->
+    <!-- Litterally everything else -->
+    <div class="main" id="main">
+        <div class="title">
+            <h1 class="big-logo">Aa</h1>
+        </div>
+        <div class="thebigcanyon"></div>
+        <div class="list">
+            <ul class="list list-left">
+                <li class="list-item"><a href="Ad/science.html">Science (Combined)</a></li>
+                <li class="list-item"><a href="Ad/geography.html">Geography</a></li>
+                <li class="list-item"><a href="Ad/history.html">History</a></li>
+            </ul>
+            <ul class="list list-right">
+                <li class="list-item"><a href="Ad/it.html">Information Technology / I.T</a></li>
+                <li class="list-item"><a href="Ad/maths.html">Maths</a></li>
+                <li class="list-item"><a href="Ad/business.html">Business Studies</a></li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>

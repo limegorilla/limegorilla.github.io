@@ -1,0 +1,85 @@
+* {
+margin: 0;
+padding: 0;
+border: none;
+list-style-type: none;
+}
+a{
+    text-decoration: none;
+    color: cadetblue;
+    font-size: 1.5em
+}
+@keyframes loader{
+    0% {opacity: 0}
+    10% {color: black; opacity: 100}
+    25% {color: lightblue}
+    50% {color: lightpink}
+    75% {color: lightcoral}
+    90% {color: black;}
+    100% {opacity: 0}
+    
+}
+@keyframes bottom{
+    from {opacity: 100%}
+    to {opacity: 0}
+}
+@keyframes main-fade-in{
+    from {opacity: 0}
+    to {opacity: 100}
+}
+.loader2 {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    padding: 1em;
+    padding-bottom: 5em;
+    animation: loader;
+    animation-duration: 5s;
+}
+.bottom{
+    position: fixed;
+    bottom: 0;
+    text-align: center;
+    left: 50%;
+    transform: translate(-50%);
+    animation: bottom;
+    animation-delay: 4.7s;
+    animation-duration: 0.3s;
+}
+.bottom a{
+    color: black;
+    font-size: 1em;;
+}
+.logo{
+    font-size: 5em;
+    font-family: 'Niramit', sans-serif;
+}
+.main{
+    display: none;
+    animation: main-fade-in;
+    animation-duration: 0.2s;
+    text-align: center;
+}
+.big-logo{
+    font-size: 9em;
+    padding-top: 1em;
+}
+.thebigcanyon{
+    padding: 4em
+}
+.list{
+    list-style: none;
+}
+.list-left{
+    float: left;
+    width: 50%
+}
+.list-right{
+    float: right;
+    width: 50%;
+}
+.list-item{
+    padding: 2em
+}
