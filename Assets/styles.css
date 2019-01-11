@@ -1,0 +1,40 @@
+/* Site Wide */
+body{
+    margin: 0;
+    margin-top: 150px;
+}
+ul{
+    text-decoration: none;
+    list-style: none;
+    padding: none;;
+}
+
+
+nav{
+    width: 100%;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    background-color: aliceblue;
+    
+}
+.nav-logo{
+    float: left;
+}
+.nav-title{
+    float: left;
+    padding: auto;
+    
+}
+.nav-list-item{
+    display: inline;
+    padding: 1em;
+    float: right;
+    top: 0;
+    color: black;
+    text-decoration: underline;
+}
+.title{
+    text-align: center;
+    font-size: 5em;
+}
