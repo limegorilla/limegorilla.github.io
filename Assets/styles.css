@@ -2,7 +2,7 @@
 body {
     padding: 0;
     margin: 0;
-        font-family: Raleway;
+    font-family: Raleway;
 }
 
 ul {
@@ -10,13 +10,15 @@ ul {
     padding: 0;
 }
 
-a{
+a {
     text-decoration: none;
 }
-.sub{
+
+.sub {
     font-size: 1.5em
 }
-.txt{
+
+.txt {
     font-size: 1.2em;
 }
 
@@ -25,10 +27,10 @@ a{
     font-family: 'sofia-light';
     src: url('fonts/sofiapro-light-webfont.eot');
     src: url('fonts/sofiapro-light-webfont.eot?#iefix') format('embedded-opentype'),
-         url('fonts/sofiapro-light-webfont.woff2') format('woff2'),
-         url('fonts/sofiapro-light-webfont.woff') format('woff'),
-         url('fonts/sofiapro-light-webfont.ttf') format('truetype'),
-         url('fonts/sofiapro-light-webfont.svg#sofia_prolight') format('svg');
+        url('fonts/sofiapro-light-webfont.woff2') format('woff2'),
+        url('fonts/sofiapro-light-webfont.woff') format('woff'),
+        url('fonts/sofiapro-light-webfont.ttf') format('truetype'),
+        url('fonts/sofiapro-light-webfont.svg#sofia_prolight') format('svg');
     font-weight: normal;
     font-style: normal;
 
@@ -38,17 +40,17 @@ a{
     font-family: 'nexa-bold';
     src: url('fonts/Nexa_Free_Bold-webfont.eot');
     src: url('fonts/Nexa_Free_Bold-webfont.eot?#iefix') format('embedded-opentype'),
-         url('fonts/Nexa_Free_Bold-webfont.woff2') format('woff2'),
-         url('fonts/Nexa_Free_Bold-webfont.woff') format('woff'),
-         url('fonts/Nexa_Free_Bold-webfont.ttf') format('truetype'),
-         url('fonts/Nexa_Free_Bold-webfont.svg#nexa_boldregular') format('svg');
+        url('fonts/Nexa_Free_Bold-webfont.woff2') format('woff2'),
+        url('fonts/Nexa_Free_Bold-webfont.woff') format('woff'),
+        url('fonts/Nexa_Free_Bold-webfont.ttf') format('truetype'),
+        url('fonts/Nexa_Free_Bold-webfont.svg#nexa_boldregular') format('svg');
     font-weight: normal;
     font-style: normal;
 
 }
 
 /* nav */
-nav{
+nav {
     width: 100%;
     top: 0;
     margin: 0 auto;
@@ -56,61 +58,75 @@ nav{
     font-family: nexa-bold;
     background-color: ;
 }
-.navholder{
+
+.navholder {
     padding: 0 5em;
 }
-.title{
+
+.title {
     float: left;
     display: block;
 }
-.title-txt{
+
+.title-txt {
     font-family: nexa-bold;
 }
-.nav0list{
+
+.nav0list {
     float: right;
     display: block;
     padding: 0.5em 1em;
 }
-.nav0item{
+
+.nav0item {
     display: inline;
     padding: 0 0.5em 0 0.5em;
 }
-.nav a{
+
+.nav a {
     color: black;
+    font-family: sofia-light;
 }
 
 /* Content */
-.content{
+.content {
     margin: 7em 5em 0;
 }
-.s1{
+
+.s1 {
     padding-bottom: 4em;
 }
-.txt-s1{
+
+.txt-s1 {
     font-size: 5em;
     width: 70%;
     font-family: sofia-light;
     color: #FF0080;
 }
-.s2{
+
+.s2 {
     display: inline-block;
     width: 100%;
 }
-.txt-s2{;
+
+.txt-s2 {
+    ;
     font-size: 4.5em;
     width: 50%;
     font-family: sofia-light;
     color: ;
     float: left;
-    
-    
+
+
 }
-.s2box{
+
+.s2box {
     width: 50%;
     float: right;
 }
+
 /* footer */
-footer{
+footer {
     padding: 3em;
     background-color: darkslategrey;
     display: block;
@@ -119,29 +135,57 @@ footer{
     border-top-width: 10px;
     border-top-color: lightgrey;
     overflow: hidden;
+    margin-top: 2em;
 }
-.footer-lft{
+
+.footer-lft {
     float: left;
 }
-footer a{
+
+footer a {
     color: white;
     font-family: nexa-bold;
+    font-family: sofia-light;
 }
-.footer-rht{
+
+.footer-rht {
     float: right;
-        color: white;
+    color: white;
     font-family: nexa-bold;
     text-align: right;
-    width: 30%
+    width: 30%;
+    font-family: sofia-light;
 }
 
 /* misc */
 .lime {
     color: lawngreen
 }
-.black{
+
+.black {
     color: black
 }
-.white{
+
+.white {
     color: white
+}
+.d-blue{
+    color: darkblue
+}
+
+/* */
+
+.carousel {
+  background: #EEE;
+}
+
+.carousel img {
+  display: block;
+  height: 200px;
+}
+
+@media screen and ( min-width: 768px ) {
+  .carousel img {
+    height: 400px;
+  }
 }

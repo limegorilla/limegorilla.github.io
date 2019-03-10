@@ -10,6 +10,8 @@
     <link href="Assets/mob-styles.css" media="(max-width: 800px)" rel="stylesheet" type="text/css">
     <link href="Assets/styles.css" media="(min-width: 800px)" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+    <!-- Courusel -->
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
 </head>
 
 <body>
@@ -29,15 +31,31 @@
     </nav>
     <div class="content">
         <div class="s1" id="top">
-            <h1 class="txt-s1">Welcome to my corner of the Internet.</h1>
-            <p class="sub">Home of nothing of importance. Garish, like my personality.</p>
+            <h1 class="txt-s1">The Portfolio.</h1>
         </div>
+        <!-- Photo Corusel -->
+
         <div class="s2">
-            <h1 class="txt-s2">Hey. I'm Liam.</h1>
-            <div class="s2box">
-                <p class="txt">Personally, I hate writing about myself - but here goes. I am a sixteen year old geek. I'm into computing, web design (this website is the fruit of my labours) as well as photo/videography. This website is a place for me to host my projects, found under (funnily enough) the <a href="projects.html">my projects</a> tab. It also serves as a place of publication for my photos, which you can find by <a href="gallery.html">clicking here.</a><br></p>
-            </div>
+            <h1 class="txt-s2">My Photography.</h1>
         </div>
+        <div class="carousel" data-flickity='{ "imagesLoaded": true, "percentPosition": false, "autoPlay": true, "wrapAround": true }'>
+            <div><img src="Assets/photos/portfolio_1.jpg"></div>
+            <div><img src="Assets/photos/portfolio_2.jpg"></div>
+            <div><img src="Assets/photos/portfolio_3.jpg"></div>
+            <div><img src="Assets/photos/portfolio_4.jpg"></div>
+            <div><img src="Assets/photos/portfolio_5.jpg"></div>
+            <div><img src="Assets/photos/portfolio_6.jpg"></div>
+            <div><img src="Assets/photos/portfolio_7.jpg"></div>
+            <div><img src="Assets/photos/portfolio_8.jpg"></div>
+            <div><img src="Assets/photos/portfolio_9.jpg"></div>
+            <div><img src="Assets/photos/portfolio_10.jpg"></div>
+            <div><img src="Assets/photos/portfolio_11.jpg"></div>
+            <div><img src="Assets/photos/portfolio_12.jpg"></div>
+            <div><img src="Assets/photos/portfolio_13.jpg"></div>
+            <div><img src="Assets/photos/portfolio_14.jpg"></div>
+        </div>
+        <p></p>
+
     </div>
     <footer>
         <h1 class="title-txt footer-logo"><a href="#"><span class="lime">Lime</span>Gorilla.io</a></h1>
@@ -58,5 +76,7 @@
                 Protected under the GNU 3.0 Licence</p>
         </div>
     </footer>
+    <!-- Scripts -->
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
 </body>
 </html>

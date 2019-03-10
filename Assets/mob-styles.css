@@ -98,8 +98,7 @@ nav{
 .txt-s2{
     font-family: sofia-light;
     color: ;
-    
-    
+    text-align: center;    
 }
 .s2box{
 
@@ -114,6 +113,7 @@ footer{
     border-top-width: 10px;
     border-top-color: lightgrey;
     overflow: hidden;
+    margin-top: 2em;
 }
 .footer-logo{
     text-align: center;
