@@ -21,6 +21,9 @@ a {
 .txt {
     font-size: 1.2em;
 }
+.lime{
+    color: #57ff60;
+}
 
 /* fonts */
 @font-face {
@@ -49,164 +52,30 @@ a {
 
 }
 
-/* nav */
-nav {
-    width: 100%;
-    top: 0;
-    margin: 0 auto;
-    position: absolute;
-    font-family: nexa-bold;
-    background-color: ;
+/* Navbar */
+.c-nav{
+    font-family: nexa-bold;   
+    background-color: #fff;
 }
-
-.navholder {
-    padding: 0 5em;
-}
-
-.title {
-    float: left;
-    display: block;
-}
-
-.title-txt {
-    font-family: nexa-bold;
-}
-
-.nav0list {
-    float: right;
-    display: block;
-    padding: 0.5em 1em;
-}
-
-.nav0item {
-    display: inline;
-    padding: 0 0.5em 0 0.5em;
-}
-
-.nav a {
-    color: black;
+.navlink{
     font-family: sofia-light;
 }
-
+/* Collapsed content */
+.social-overlay{
+    padding-top: 2em;
+}
 /* Content */
 .content {
     margin: 7em 5em 0;
 }
 
-.s1 {
+.s-title {
     padding-bottom: 4em;
 }
 
-.txt-s1 {
+.s1 {
     font-size: 5em;
     width: 70%;
     font-family: sofia-light;
-    color: #FF0080;
-}
-
-.s2 {
-    display: inline-block;
-    width: 100%;
-}
-
-.txt-s2 {
-    ;
-    font-size: 4.5em;
-    width: 50%;
-    font-family: sofia-light;
-    color: ;
-    float: left;
-
-
-}
-
-.s2box {
-    width: 50%;
-    float: right;
-}
-
-/* footer */
-footer {
-    padding: 3em;
-    background-color: darkslategrey;
-    display: block;
-    height: 15em;
-    border-top: solid;
-    border-top-width: 10px;
-    border-top-color: lightgrey;
-    overflow: hidden;
-    margin-top: 2em;
-}
-
-.footer-lft {
-    float: left;
-}
-
-footer a {
-    color: white;
-    font-family: nexa-bold;
-    font-family: sofia-light;
-}
-
-.footer-rht {
-    float: right;
-    color: white;
-    font-family: nexa-bold;
-    text-align: right;
-    width: 30%;
-    font-family: sofia-light;
-}
-
-/* misc */
-.lime {
-    color: lawngreen
-}
-
-.black {
-    color: black
-}
-
-.white {
-    color: white
-}
-
-.d-blue {
-    color: darkblue
-}
-
-/* */
-@media screen and (max-width: 768px) {
-    .m-carousel {
-        background: #EEE;
-    }
-
-    .m-carousel img {
-        display: none;
-            }
-
-    .l-carousel {
-        display: none;
-    }
-}
-
-@media screen and (min-width: 769px) {
-    .l-carousel {
-        background: #EEE;
-    }
-
-    .l-carousel img {
-        display: block;
-        height: 200px;
-    }
-
-    .m-carousel {
-        display: none;
-    }
-}
-
-
-@media screen and (min-width: 768px) {
-    .carousel img {
-        height: 400px;
-    }
+    color: #FF0080
 }

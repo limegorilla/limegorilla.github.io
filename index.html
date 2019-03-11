@@ -1,62 +1,90 @@
-<! Doctype HTML>
-<html>
-    <head>
+<!doctype html>
+<html lang="en">
+
+<head>
     <title>Liam Doyle | Home</title>
     <meta name="description" content="My home on the internet. Here I like to post things I'm working on, as well as hosting Advanced, a resource for GCSE students.">
     <meta name="keywords" content="Liam, Doyle, Advanced, Programming, LimeGorilla">
     <meta name="author" content="Liam Doyle">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Linked Documents -->
-    <link href="Assets/mob-styles.css" media="(max-width: 800px)" rel="stylesheet" type="text/css">
-    <link href="Assets/styles.css" media="(min-width: 800px)" rel="stylesheet" type="text/css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- CSS -->
+    <link rel="stylesheet" href="Assets/styles.css">
+    <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
 </head>
 
 <body>
+    <!-- Loader -->
 
-    <nav class="nav" id="nav">
-        <div class="navholder">
-            <div class="title">
-                <h1 class="title-txt"><a href="#"><span class="lime">Lime</span>Gorilla</a></h1>
+    <!-- Content displays after load-->
+    <div class="main-content">
+
+        <!-- (B) Navbar -->
+        <nav class="c-nav navbar fixed-top navbar-expand-lg navbar-light">
+            <a class="navbar-brand" href="#">
+                <img src="/docs/4.3/assets/brand/bootstrap-solid.svg" width="30" height="30" class="d-inline-block align-top" alt="">
+                <span class="logo-txt"><span class="lime">Lime</span>Gorilla</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <div class="hamburger" onclick="hamburg(this)">
+                    <div class="bar1"></div>
+                    <div class="bar2"></div>
+                    <div class="bar3"></div>
+                </div>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+                <div class="navbar-nav ">
+                    <a class="nav-item nav-link navlink active" href="#top">Home <span class="sr-only">(current)</span></a>
+                    <a class="nav-item nav-link navlink" href="portfolio.html">Portfolio</a>
+                    <a class="nav-item nav-link navlink" href="gallery.html">Gallery</a>
+                    <a class="nav-item nav-link navlink" href="projects.html">Ongoing Projects</a>
+                    <a class="nav-item nav-link navlink disabled" href="">Ad+</a>
+                    <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#social" aria-controls="social" aria-expanded="false" aria-label="Toggle navigation">Social</button>
+                </div>
             </div>
-            <ul class="nav0list">
-                <li class="nav0item"><a class="nav0active" href="#">Home</a></li>
-                <li class="nav0item"><a class="" href="portfolio.html">Portfolio</a></li>
-                <li class="nav0item"><a class="" href="#social">Social</a></li>
-                <li class="nav0item"><a class="" href="projects.html">ad+ (Alpha)</a></li>
-            </ul>
-        </div>
-    </nav>
-    <div class="content">
-        <div class="s1" id="top">
-            <h1 class="txt-s1">Welcome to my corner of the Internet.</h1>
-            <p class="sub">Home of nothing of importance. Garish, like my personality.</p>
-        </div>
-        <div class="s2">
-            <h1 class="txt-s2">Hey. I'm Liam.</h1>
-            <div class="s2box">
-                <p class="txt">Personally, I hate writing about myself - but here goes. I am a sixteen year old geek. I'm into computing, web design (this website is the fruit of my labours) as well as photo/videography. This website is a place for me to host my projects, found under (funnily enough) the <a href="projects.html">my projects</a> tab. It also serves as a place of publication for my photos, which you can find by <a href="gallery.html">clicking here.</a><br></p>
+        </nav>
+        <!-- (B) Collapsed content -->
+        <!-- Social links -->
+        <div class="pos-f-t">
+            <div class="collapse" id="social">
+                <div class="bg-dark p-4">
+                    <h5 class="text-white h1 social-overlay">The socials.</h5>
+                    <span class="text-muted">I mean, you could just search. I'm just sayin'</span>
+                    <p class="overlay">
+                        <li class="overlay-item"><a href="https://instagram.com/limegorilla">My Instagram</a></li>
+                        <li class="overlay-item"><a href="https://snapchat.com/add/limegorilla">Snapchat</a></li>
+                        <li class="overlay-item"><a href="https://www.quora.com/profile/Liam-Doyle-63">Quora</a></li>
+                        <li class="overlay-item"><a href="https://twitter.com/liamdoyleco">Twitter</a></li>
+                        <li class="overlay-item"><a href="http://reddit.com/u/limegorilla">Reddit</a></li>
+                    </p>
+                    <span class="text-muted">Due to the sad state of the world, anything hosted on the above websites is not condoned, allowed, agreed, talked about, thought about, looked at, smiled at, trashed by, looked up, listened to, hosted, idiolized or commited in any way by me. Unless I wrote it.</span>
+                </div>
             </div>
+
+            <!-- Main content -->
+            <!-- Pushes content down to accomodate nav-bar -->
+            <div class="content">
+                <div class="s-title" id="top">
+                    <h1 class="s1"><b>Welcome to my corner of the Internet.</b></h1>
+                </div>
+            </div>
+
         </div>
     </div>
-    <footer>
-        <h1 class="title-txt footer-logo"><a href="#"><span class="lime">Lime</span>Gorilla.io</a></h1>
-        <div class="footer-lft">
-            <ul class="footer-list">
-                <li class="footer0item"><a href="sitemap.html">Site map</a></li>
-                <li class="footer0item"><a href="gallery.html">Gallery</a></li>
-                <li class="footer0item"><a href="projects.html">My projects</a></li>
-                <li class="footer0item"><a href="https://limegorilla.github.io/#frommain">See the Beta</a></li>
-                <li class="footer0item"><a href="#top">Top</a></li>
-            </ul>
-        </div>
-        <div class="footer-rht">
-            <p class="footer-txt">A Liam Doyle creation.<br>
-                LimeGorilla is property of Liam Doyle<br>
-                Liam Doyle, LimeGorilla, 2018<br>
-                All Rights Reserved<br>
-                Protected under the GNU 3.0 Licence</p>
-        </div>
-    </footer>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script>
+        function hamburg(x) {
+            x.classList.toggle("change");
+        }
+    </script>
 </body>
+
 </html>
