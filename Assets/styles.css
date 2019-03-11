@@ -169,23 +169,44 @@ footer a {
 .white {
     color: white
 }
-.d-blue{
+
+.d-blue {
     color: darkblue
 }
 
 /* */
+@media screen and (max-width: 768px) {
+    .m-carousel {
+        background: #EEE;
+    }
 
-.carousel {
-  background: #EEE;
+    .m-carousel img {
+        display: none;
+            }
+
+    .l-carousel {
+        display: none;
+    }
 }
 
-.carousel img {
-  display: block;
-  height: 200px;
+@media screen and (min-width: 769px) {
+    .l-carousel {
+        background: #EEE;
+    }
+
+    .l-carousel img {
+        display: block;
+        height: 200px;
+    }
+
+    .m-carousel {
+        display: none;
+    }
 }
 
-@media screen and ( min-width: 768px ) {
-  .carousel img {
-    height: 400px;
-  }
+
+@media screen and (min-width: 768px) {
+    .carousel img {
+        height: 400px;
+    }
 }
