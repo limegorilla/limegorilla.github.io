@@ -35,6 +35,8 @@ a {
 }
 .quote{
     font-family: nexa-bold;
+    padding: 0.5em;
+    width: 40%
 }
 
 .left {
