@@ -15,14 +15,76 @@ a {
 }
 
 .sub {
-    font-size: 1.5em
+    font-family: nexa-bold;
 }
 
 .txt {
     font-size: 1.2em;
 }
-.lime{
+
+.lime {
     color: #57ff60;
+}
+
+.inline-item {
+    display: inline;
+}
+
+.title {
+    font-family: nexa-bold;
+}
+.quote{
+    font-family: nexa-bold;
+}
+
+.left {
+    float: left;
+    display: block;
+}
+
+.right {
+    float: right;
+    display: block;
+    text-align: right;
+}
+.mod-50{
+    width: 50%;
+}
+
+.arrow-right {
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+}
+
+.arrow-left {
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+    transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
+}
+
+.arrow-up {
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+    transform: rotate(-135deg);
+    -webkit-transform: rotate(-135deg);
+}
+
+.arrow-down {
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
 }
 
 /* fonts */
@@ -53,17 +115,50 @@ a {
 }
 
 /* Navbar */
-.c-nav{
-    font-family: nexa-bold;   
+.c-nav {
+    font-family: nexa-bold;
     background-color: #fff;
 }
-.navlink{
+
+.navlink {
     font-family: sofia-light;
 }
+
+/* Navbar Hamburger Icon styling */
+.hamburger {
+    display: inline-block;
+    cursor: pointer;
+}
+
+.bar1,
+.bar2,
+.bar3 {
+    width: 35px;
+    height: 5px;
+    background-color: #333;
+    margin: 6px 0;
+    transition: 0.4s;
+}
+
+.change .bar1 {
+    -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+    transform: rotate(-45deg) translate(-9px, 6px);
+}
+
+.change .bar2 {
+    opacity: 0;
+}
+
+.change .bar3 {
+    -webkit-transform: rotate(45deg) translate(-8px, -8px);
+    transform: rotate(45deg) translate(-8px, -8px);
+}
+
 /* Collapsed content */
-.social-overlay{
+.social-overlay {
     padding-top: 2em;
 }
+
 /* Content */
 .content {
     margin: 7em 5em 0;
@@ -78,4 +173,28 @@ a {
     width: 70%;
     font-family: sofia-light;
     color: #FF0080
+}
+
+/* footer */
+.go-top{
+    text-align: center;
+    background-color: lightgrey;
+}
+.footer {
+    background-color: lightcyan;
+    padding: 4em 4em 1em;
+    4em;
+}
+
+.footer-bottom {
+    text-align: center;
+    padding-top: 2em;
+}
+
+.footer-item {
+    padding: 1em;
+}
+
+.footer-box {
+    display:
 }

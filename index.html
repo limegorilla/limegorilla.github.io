@@ -9,6 +9,14 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
+    <!-- Loaders and other JS that needs to run on opening -->
+    <!-- (B) Alert to show new LimeGorilla web page active -->
+    <script type="text/javascript">
+        $(window).on('load', function() {
+            $('.alert').alert;
+        });
+    </script>
+
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <!-- CSS -->
@@ -48,6 +56,13 @@
             </div>
         </nav>
         <!-- (B) Collapsed content -->
+        <!-- Alert to show new LimeGorilla web page active -->
+        <!-- NOT WORKING <div class="alert alert-info alert-dismissible fade" role="alert" id="alert01">
+            <strong>Holy guacamole!</strong> You should check in on some of those fields below.
+            <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+        </div> -->
         <!-- Social links -->
         <div class="pos-f-t">
             <div class="collapse" id="social">
@@ -64,22 +79,74 @@
                     <span class="text-muted">Due to the sad state of the world, anything hosted on the above websites is not condoned, allowed, agreed, talked about, thought about, looked at, smiled at, trashed by, looked up, listened to, hosted, idiolized or commited in any way by me. Unless I wrote it.</span>
                 </div>
             </div>
+        </div>
 
-            <!-- Main content -->
-            <!-- Pushes content down to accomodate nav-bar -->
-            <div class="content">
-                <div class="s-title" id="top">
-                    <h1 class="s1"><b>Welcome to my corner of the Internet.</b></h1>
+        <!-- Main content -->
+        <!-- Pushes content down to accomodate nav-bar -->
+        <div class="content">
+            <!-- Main title -->
+            <div class="s-title" id="top">
+                <h1 class="s1"><b>Welcome to my corner of the Internet.</b></h1>
+            </div>
+            <div class="s-two">
+                <h2 class="sub">This is possibly a subtitle.</h2>
+                <p>This is some text. It will go here to show you things. And magic. Becasue I can think of nothing more to write, here is some good 'ol Lorem Ipsum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras vestibulum erat eget libero tincidunt congue. Sed a gravida sapien. Fusce lobortis leo nec placerat facilisis. Praesent sit amet facilisis lectus, eget rhoncus ante. Aliquam quam neque, fermentum sit amet lobortis hendrerit, blandit et lacus. Suspendisse eros neque, lobortis nec dapibus nec, placerat vitae purus. Morbi at sapien in nulla placerat porttitor id eget metus. Ut porttitor, nisl id malesuada scelerisque, ex nisi suscipit risus, quis sodales justo massa a velit. Nunc scelerisque nibh ac tristique luctus. Praesent in quam efficitur diam elementum vulputate. Nullam metus tortor, mattis sit amet finibus vitae, tincidunt ac arcu. Ut rhoncus erat a eros malesuada convallis. Phasellus porttitor ut mauris non maximus. Pellentesque accumsan orci sit amet sapien placerat, quis placerat eros consequat.
+                    <br>
+                    Cras facilisis quis purus eu vulputate. Suspendisse orci felis, lacinia ac risus at, consequat viverra dui. Aenean iaculis ante placerat hendrerit rutrum. Nunc consequat ornare malesuada. Quisque lectus ligula, tincidunt a ante in, consequat condimentum arcu. Praesent ante turpis, scelerisque eu consequat id, laoreet in lacus. Nulla vel arcu at massa posuere egestas.
+                    <br>
+                    Aenean commodo ante eu hendrerit blandit. Phasellus et dui dictum, dictum eros sit amet, bibendum libero. Aliquam ligula nibh, semper non varius mollis, malesuada ut lectus. Nam maximus ex id magna pretium scelerisque. Duis malesuada lectus ut ornare hendrerit. Mauris mattis neque aliquet nulla venenatis blandit. Suspendisse eleifend quis elit nec interdum. Vivamus ultrices turpis in est eleifend molestie. Suspendisse auctor ipsum vel mauris rutrum, a commodo risus facilisis. Curabitur fringilla commodo ornare. Aliquam ac commodo nisl. Curabitur varius euismod nibh. Etiam euismod neque eget sem volutpat maximus. Etiam aliquam, leo at maximus fermentum, justo neque lacinia odio, sed scelerisque nibh odio porttitor nunc.
+                    <br>
+                    Etiam fermentum et enim sed accumsan. Sed et aliquam neque. Vestibulum euismod volutpat elit. Nunc sed est eros. Aenean vitae orci non sem cursus cursus. Curabitur facilisis elit a dui euismod faucibus. Sed ac tempor magna. Curabitur sit amet odio sollicitudin sem viverra auctor gravida vel neque. Mauris dignissim lectus ut sapien feugiat, quis imperdiet est laoreet. Aenean interdum at lorem sit amet vulputate. Morbi ultricies ipsum sed lorem sollicitudin interdum. Nunc quis magna tortor. Integer rhoncus feugiat tellus, at tristique turpis vestibulum a. Nunc ut justo a risus faucibus feugiat. Suspendisse auctor eleifend metus, vel euismod risus imperdiet blandit. Cras interdum erat sit amet porttitor ullamcorper.</p>
+            </div>
+        </div>
+        <!-- Footer -->
+        <div class="go-top">
+            <a href="#top"><span class="arrow-up"></span></a>
+        </div>
+        <div class="footer" id="bottom">
+            <div class="footer-box">
+
+                <div class="left">
+                    <h1 class="title"><span class="lime">Lime</span>Gorilla.</h1>
+                    <p>Coded by Liam Doyle.</p>
+                    <ul>
+                        <li><a href="sitemap.html">Sitemap</a></li>
+                        <li><a href="how.html">How this site was made</a></li>
+                    </ul>
+                </div>
+                <div class="right">
+                    <p>Liam Doyle and LimeGorilla 2019.
+                        <br>
+                        All Rights Reserved.
+                        <br>
+                        Uses the Bootstrap Engine, 2019 Twitter.
+                        <br>
+                        A Liam Doyle creation.
+                        <br>
+                        <br>
+                        This version went live 12th March 2019</p>
                 </div>
             </div>
-
+            <div class="footer-bottom">
+                <ul class="footer-list">
+                    <li class="inline-item footer-item"><a href="https://facebook.com/limegorilla"><img src="Assets/icons/social-1_logo-facebook.svg"></a></li>
+                    <li class="inline-item footer-item"><a href="https://github.com/limegorilla"><img src="Assets/icons/social-1_logo-github.svg"></a></li>
+                    <li class="inline-item footer-item"><a href="https://instagram.com/limegorilla"><img src="Assets/icons/social-1_logo-instagram.svg"></a></li>
+                    <li class="inline-item footer-item"><a href="https://reddit.com/u/limegorilla"><img src="Assets/icons/social-1_logo-reddit.svg"></a></li>
+                    <li class="inline-item footer-item"><a href="https://open.spotify.com/user/limegorilla"><img src="Assets/icons/social-1_logo-spotify.svg"></a></li>
+                    <li class="inline-item footer-item"><a href="https://twitter.com/liamdoyleco"><img src="Assets/icons/social-1_logo-twitter.svg"></a></li>
+                </ul>
+                <p>Made with love with <a href="https://getbootstrap.com">Bootstrap</a> and <a href="https://github.com/limegorilla/limegorilla.github.io">GitHub.</a></p>
+            </div>
         </div>
+
     </div>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <!-- Hamburger menu animator -->
     <script>
         function hamburg(x) {
             x.classList.toggle("change");
