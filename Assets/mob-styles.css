@@ -54,7 +54,8 @@ a {
 .mod-50 {
     width: 50%;
 }
-.mod-mob-foot{
+
+.mod-mob-foot {
     padding-top: 3em;
 }
 
@@ -223,6 +224,7 @@ a {
     display: flex;
 }
 
+
 /* Courusel */
 .mod-caro {
     width: 40%;
@@ -234,10 +236,12 @@ a {
 .ind-caro {
     display: flex;
 }
+
 /* mobile changes */
-.mob-foot-title{
+.mob-foot-title {
     text-align: center;
 }
-.floatn0{
+
+.floatn0 {
     float: none;
 }
