@@ -1,12 +1,8 @@
-.nav0list{
-    display: none;
-}
-
 /* Global */
 body {
     padding: 0;
     margin: 0;
-        font-family: Raleway;
+    font-family: Raleway;
 }
 
 ul {
@@ -14,24 +10,106 @@ ul {
     padding: 0;
 }
 
-a{
+a {
     text-decoration: none;
 }
-.sub{
+
+.sub {
+    font-family: nexa-bold;
 }
-.txt{
+
+.txt {
+    font-size: 1.2em;
+}
+
+.lime {
+    color: #57ff60;
+}
+
+.inline-item {
+    display: inline;
+}
+
+.title {
+    font-family: nexa-bold;
+}
+
+.quote {
+    font-family: nexa-bold;
+    padding: 0em;
+    width: 100%;
+}
+
+.left {
+    float: left;
+    display: block;
+}
+
+.right {
+    float: right;
+    display: block;
+    text-align: right;
+}
+
+.mod-50 {
+    width: 50%;
+}
+.mod-mob-foot{
+    padding-top: 3em;
+}
+
+.mod-al-ver {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.arrow-right {
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+}
+
+.arrow-left {
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+    transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
+}
+
+.arrow-up {
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+    transform: rotate(-135deg);
+    -webkit-transform: rotate(-135deg);
+}
+
+.arrow-down {
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
 }
 
 /* fonts */
-
 @font-face {
     font-family: 'sofia-light';
     src: url('fonts/sofiapro-light-webfont.eot');
     src: url('fonts/sofiapro-light-webfont.eot?#iefix') format('embedded-opentype'),
-         url('fonts/sofiapro-light-webfont.woff2') format('woff2'),
-         url('fonts/sofiapro-light-webfont.woff') format('woff'),
-         url('fonts/sofiapro-light-webfont.ttf') format('truetype'),
-         url('fonts/sofiapro-light-webfont.svg#sofia_prolight') format('svg');
+        url('fonts/sofiapro-light-webfont.woff2') format('woff2'),
+        url('fonts/sofiapro-light-webfont.woff') format('woff'),
+        url('fonts/sofiapro-light-webfont.ttf') format('truetype'),
+        url('fonts/sofiapro-light-webfont.svg#sofia_prolight') format('svg');
     font-weight: normal;
     font-style: normal;
 
@@ -41,105 +119,125 @@ a{
     font-family: 'nexa-bold';
     src: url('fonts/Nexa_Free_Bold-webfont.eot');
     src: url('fonts/Nexa_Free_Bold-webfont.eot?#iefix') format('embedded-opentype'),
-         url('fonts/Nexa_Free_Bold-webfont.woff2') format('woff2'),
-         url('fonts/Nexa_Free_Bold-webfont.woff') format('woff'),
-         url('fonts/Nexa_Free_Bold-webfont.ttf') format('truetype'),
-         url('fonts/Nexa_Free_Bold-webfont.svg#nexa_boldregular') format('svg');
+        url('fonts/Nexa_Free_Bold-webfont.woff2') format('woff2'),
+        url('fonts/Nexa_Free_Bold-webfont.woff') format('woff'),
+        url('fonts/Nexa_Free_Bold-webfont.ttf') format('truetype'),
+        url('fonts/Nexa_Free_Bold-webfont.svg#nexa_boldregular') format('svg');
     font-weight: normal;
     font-style: normal;
 
 }
-/* nav */
-nav{
-    width: 100%;
-    top: 0;
-    margin: 0 auto;
-    position: absolute;
+
+/* Loader */
+.loader {
+    text-align: center;
+    position: relative;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+/* Navbar */
+.c-nav {
     font-family: nexa-bold;
-    background-color: ;
+    background-color: #fff;
 }
-.navholder{
-    padding: 0 20px;
+
+.navlink {
+    font-family: sofia-light;
 }
-.title{
-    float: left;
-    display: block;
+
+/* Navbar Hamburger Icon styling */
+.hamburger {
+    display: inline-block;
+    cursor: pointer;
 }
-.title-txt{
-    font-family: nexa-bold;
+
+.bar1,
+.bar2,
+.bar3 {
+    width: 35px;
+    height: 5px;
+    background-color: #333;
+    margin: 6px 0;
+    transition: 0.4s;
 }
-.nav0list{
-    float: right;
-    padding: 0.5em 1em;
+
+.change .bar1 {
+    -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+    transform: rotate(-45deg) translate(-9px, 6px);
 }
-.nav0item{
-    display: inline;
-    padding: 0 0.5em 0 0.5em;
+
+.change .bar2 {
+    opacity: 0;
 }
-.nav a{
-    color: black;
+
+.change .bar3 {
+    -webkit-transform: rotate(45deg) translate(-8px, -8px);
+    transform: rotate(45deg) translate(-8px, -8px);
+}
+
+/* Collapsed content */
+.social-overlay {
+    padding-top: 2em;
 }
 
 /* Content */
-.content{
-    margin: 6em 1em 0;
+.content {
+    margin: 4em 1em 0;
 }
-.s1{
+
+.s-title {
     padding-bottom: 4em;
 }
-.txt-s1{
-    font-family: sofia-light;
-    color: #FF0080;
-}
-.s2{
-    display: inline-block;
-    width: 100%;
-}
-.txt-s2{
-    font-family: sofia-light;
-    color: ;
-    text-align: center;    
-}
-.s2box{
 
+.s1 {
+    font-size: 3em;
+    width: 90%;
+    font-family: sofia-light;
+    color: #FF0080
 }
+
 /* footer */
-footer{
-    padding: 1em;
-    background-color: darkslategrey;
-    display: block;
-    height: 17em;
-    border-top: solid;
-    border-top-width: 10px;
-    border-top-color: lightgrey;
-    overflow: hidden;
-    margin-top: 2em;
+.go-top {
+    text-align: center;
+    background-color: lightgrey;
 }
-.footer-logo{
+
+.footer {
+    background-color: lightcyan;
+    padding: 1em 1em 1em 1em;
+}
+
+.footer-bottom {
+    text-align: center;
+    padding-top: 2em;
+}
+
+.footer-item {
+    padding: 1em;
+}
+
+.footer-box {
+    display: flex;
+}
+
+/* Courusel */
+.mod-caro {
+    width: 40%;
+    float: left;
+    margin: 2em 0;
+}
+
+/* Index Only */
+.ind-caro {
+    display: flex;
+}
+/* mobile changes */
+.mob-foot-title{
     text-align: center;
 }
-.footer-lft{
-    float: left;
-}
-footer a{
-    color: white;
-    font-family: nexa-bold;
-}
-.footer-rht{
-    float: right;
-        color: white;
-    font-family: nexa-bold;
-    text-align: right;
-    width: 60%
-}
-
-/* misc */
-.lime {
-    color: lawngreen
-}
-.black{
-    color: black
-}
-.white{
-    color: white
+.floatn0{
+    float: none;
 }
