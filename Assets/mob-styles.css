@@ -7,6 +7,7 @@
     font-size: 3em;
     width: 70%;
     font-family: sofia-light;
+    text-rendering: optimizeLegibility;
     color: #FF0080
 }
 /* Footer */

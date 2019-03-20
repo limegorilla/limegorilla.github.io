@@ -116,8 +116,8 @@ a {
 
 /* fonts */
 @font-face {
-    font-family: '';
-    src: url('fonts/sofiapro-light-webfont.eot'),
+    font-family: 'sofia-light';
+    src: url('fonts/sofiapro-light-webfont.eot');
     src: url('fonts/sofiapro-light-webfont.eot?#iefix') format('embedded-opentype'),
         url('fonts/sofiapro-light-webfont.woff2') format('woff2'),
         url('fonts/sofiapro-light-webfont.woff') format('woff'),
@@ -127,16 +127,19 @@ a {
     font-style: normal;
 
 }
-<!--
-@font-face {
-	    font-family: "sofia-light";
-	    src: url('http://hsaraid.pointblankstaging.com/wp-content/themes/x/fonts/Gotham-Bold.woff') format('woff'),
-	         url('http://hsaraid.pointblankstaging.com/wp-content/themes/x/fonts/Gotham-Bold.woff2') format('woff2'),
-	         url('http://hsaraid.pointblankstaging.com/wp-content/themes/x/fonts/Gotham-Bold.ttf') format('truetype');
-	    font-weight: normal;
-	    font-style: normal; 
+
+@font-face{
+    font-family: 'acherus-grotesque';
+    src: url('fonts/acherusgrotesque-regular-webfont.eot');
+    src: url('fonts/acherusgrotesque-regular-webfont.eot#iefix') format('embedded-opentype'),
+        url('fonts/acherusgrotesque-regular-webfont.woff2') format('woff2'),
+        url('fonts/acherusgrotesque-regular-webfont.woff') format('woff'),
+        url('fonts/acherusgrotesque-regular-webfont.ttf') format('truetype'),
+        url('fonts/acherusgrotesque-regular-webfont.svg#acherus_grotesque') format('svg');
+    font-weight: normal;
+    font-style: normal;
 }
--->
+
 @font-face {
     font-family: 'nexa-bold';
     src: url('fonts/Nexa_Free_Bold-webfont.eot');
@@ -168,6 +171,7 @@ a {
 
 .navlink {
     font-family: sofia-light;
+    text-rendering: optimizeLegibility;
 }
 
 /* Navbar Hamburger Icon styling */
@@ -224,6 +228,7 @@ a {
     font-size: 5em;
     width: 70%;
     font-family: sofia-light;
+    text-rendering: optimizeLegibility;
     color: #FF0080
 }
 
