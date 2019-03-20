@@ -1,247 +1,41 @@
-/* Global */
-body {
-    padding: 0;
-    margin: 0;
-    font-family: Raleway;
-}
-
-ul {
-    list-style-type: none;
-    padding: 0;
-}
-
-a {
-    text-decoration: none;
-}
-
-.sub {
-    font-family: nexa-bold;
-}
-
-.txt {
-    font-size: 1.2em;
-}
-
-.lime {
-    color: #57ff60;
-}
-
-.inline-item {
-    display: inline;
-}
-
-.title {
-    font-family: nexa-bold;
-}
-
-.quote {
-    font-family: nexa-bold;
-    padding: 0em;
-    width: 100%;
-}
-
-.left {
-    float: left;
-    display: block;
-}
-
-.right {
-    float: right;
-    display: block;
-    text-align: right;
-}
-
-.mod-50 {
-    width: 50%;
-}
-
-.mod-mob-foot {
-    padding-top: 3em;
-}
-
-.mod-al-ver {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 0 auto;
-}
-
-.arrow-right {
-    border: solid black;
-    border-width: 0 3px 3px 0;
-    display: inline-block;
-    padding: 3px;
-    transform: rotate(-45deg);
-    -webkit-transform: rotate(-45deg);
-}
-
-.arrow-left {
-    border: solid black;
-    border-width: 0 3px 3px 0;
-    display: inline-block;
-    padding: 3px;
-    transform: rotate(135deg);
-    -webkit-transform: rotate(135deg);
-}
-
-.arrow-up {
-    border: solid black;
-    border-width: 0 3px 3px 0;
-    display: inline-block;
-    padding: 3px;
-    transform: rotate(-135deg);
-    -webkit-transform: rotate(-135deg);
-}
-
-.arrow-down {
-    border: solid black;
-    border-width: 0 3px 3px 0;
-    display: inline-block;
-    padding: 3px;
-    transform: rotate(45deg);
-    -webkit-transform: rotate(45deg);
-}
-
-/* fonts */
-@font-face {
-    font-family: 'sofia-light';
-    src: url('fonts/sofiapro-light-webfont.eot');
-    src: url('fonts/sofiapro-light-webfont.eot?#iefix') format('embedded-opentype'),
-        url('fonts/sofiapro-light-webfont.woff2') format('woff2'),
-        url('fonts/sofiapro-light-webfont.woff') format('woff'),
-        url('fonts/sofiapro-light-webfont.ttf') format('truetype'),
-        url('fonts/sofiapro-light-webfont.svg#sofia_prolight') format('svg');
-    font-weight: normal;
-    font-style: normal;
-
-}
-
-@font-face {
-    font-family: 'nexa-bold';
-    src: url('fonts/Nexa_Free_Bold-webfont.eot');
-    src: url('fonts/Nexa_Free_Bold-webfont.eot?#iefix') format('embedded-opentype'),
-        url('fonts/Nexa_Free_Bold-webfont.woff2') format('woff2'),
-        url('fonts/Nexa_Free_Bold-webfont.woff') format('woff'),
-        url('fonts/Nexa_Free_Bold-webfont.ttf') format('truetype'),
-        url('fonts/Nexa_Free_Bold-webfont.svg#nexa_boldregular') format('svg');
-    font-weight: normal;
-    font-style: normal;
-
-}
-
-/* Loader */
-.loader {
-    text-align: center;
-    position: relative;
-    top: 50%;
-    -ms-transform: translateY(-50%);
-    -webkit-transform: translateY(-50%);
-    transform: translateY(-50%);
-}
-
-/* Navbar */
-.c-nav {
-    font-family: nexa-bold;
-    background-color: #fff;
-}
-
-.navlink {
-    font-family: sofia-light;
-}
-
-/* Navbar Hamburger Icon styling */
-.hamburger {
-    display: inline-block;
-    cursor: pointer;
-}
-
-.bar1,
-.bar2,
-.bar3 {
-    width: 35px;
-    height: 5px;
-    background-color: #333;
-    margin: 6px 0;
-    transition: 0.4s;
-}
-
-.change .bar1 {
-    -webkit-transform: rotate(-45deg) translate(-9px, 6px);
-    transform: rotate(-45deg) translate(-9px, 6px);
-}
-
-.change .bar2 {
-    opacity: 0;
-}
-
-.change .bar3 {
-    -webkit-transform: rotate(45deg) translate(-8px, -8px);
-    transform: rotate(45deg) translate(-8px, -8px);
-}
-
-/* Collapsed content */
-.social-overlay {
-    padding-top: 2em;
-}
-
 /* Content */
 .content {
-    margin: 4em 1em 0;
+    margin: 0 auto;
+    padding: 0 1em;
 }
-
-.s-title {
-    padding-bottom: 4em;
-}
-
 .s1 {
     font-size: 3em;
-    width: 90%;
+    width: 70%;
     font-family: sofia-light;
     color: #FF0080
 }
-
-/* footer */
-.go-top {
-    text-align: center;
-    background-color: lightgrey;
-}
-
+/* Footer */
 .footer {
     background-color: lightcyan;
-    padding: 1em 1em 1em 1em;
+    padding: 2em;
+}
+.f-right{
+    float: none;
+}
+.f-left{
+    float: none;
+}
+.mo-f-mid{
+    text-align: center;
+    width: 100%;
 }
 
 .footer-bottom {
     text-align: center;
-    padding-top: 2em;
+    clear: both;
+    padding: 1em;
 }
 
 .footer-item {
     padding: 1em;
 }
 
-.footer-box {
-    display: flex;
-}
-
-
-/* Courusel */
-.mod-caro {
-    width: 40%;
-    float: left;
-    margin: 2em 0;
-}
-
-/* Index Only */
-.ind-caro {
-    display: flex;
-}
-
-/* mobile changes */
-.mob-foot-title {
+.mo-fo-b{
+    font-size: 10px;
     text-align: center;
-}
-
-.floatn0 {
-    float: none;
 }

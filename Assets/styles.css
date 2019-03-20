@@ -1,4 +1,9 @@
 /* Global */
+html,
+body {
+    height: 100%;
+}
+
 body {
     padding: 0;
     margin: 0;
@@ -12,6 +17,17 @@ ul {
 
 a {
     text-decoration: none;
+}
+
+.loading {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-content {
+    display: none;
 }
 
 .sub {
@@ -182,7 +198,13 @@ a {
 
 /* Content */
 .content {
-    margin: 7em 5em 0;
+    margin: 0 auto;
+    max-width: 1500px;
+    padding: 0 3em;
+}
+
+#top {
+    padding: 3em;
 }
 
 .s-title {
@@ -205,25 +227,28 @@ a {
 .footer {
     background-color: lightcyan;
     padding: 4em 4em 1em;
-    4em;
 }
 
 .footer-bottom {
     text-align: center;
-    padding-top: 2em;
+    clear: both;
+    padding: 1em 0 0 0;
 }
 
 .footer-item {
     padding: 1em;
 }
 
+
 .footer-box {
     display:
 }
-.f-left{
+
+.f-left {
     float: left;
 }
-.f-right{
+
+.f-right {
     float: right;
     text-align: right;
 }
@@ -233,6 +258,18 @@ a {
     width: 40%;
     float: left;
     margin: 2em 0;
+}
+
+/* loader */
+.bs-green {
+    background-color: #57ff60 !important
+}
+
+a.bs-green:focus,
+a.b-greens:hover,
+button.bs-green:focus,
+button.bs-green:hover {
+    background-color: #57ff60 !important
 }
 
 /* Index Only */

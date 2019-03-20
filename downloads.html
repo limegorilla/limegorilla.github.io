@@ -41,13 +41,35 @@
     <meta name="msapplication-TileColor" content="#57ff60">
     <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
     <meta name="theme-color" content="#67ff60">
+
+    <script>
+        var myVar;
+
+        function myFunction() {
+            myVar = setTimeout(showPage, 3000);
+        }
+
+        function showPage() {
+            document.getElementById("loader").style.display = "none";
+            document.getElementById("myDiv").style.display = "block";
+        }
+    </script>
 </head>
 
-<body>
+<body onload="myFunction()">
     <!-- Loader -->
-
+    <div id="loader" class="loading">
+        <div>
+            <h1 class="title"><span class="lime">Lime</span>Gorilla</h1>
+            <div>
+                <div class="progress">
+                    <div class="progress-bar progress-bar-striped progress-bar-animated bs-green" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 100%"></div>
+                </div>
+            </div>
+        </div>
+    </div>
     <!-- Content displays after load-->
-    <div class="main-content">
+    <div class="main-content" id="myDiv">
         <div id="top"></div>
         <!-- (B) Navbar -->
         <nav class="c-nav navbar fixed-top navbar-expand-lg navbar-light">
@@ -100,7 +122,7 @@
         <div class="content">
             <!-- Main title -->
             <div class="s-title">
-                <h1 class="s1"><b>Welcome to my corner of the Internet.</b></h1>
+                <h1 class="s1"><b>Downloads.</b></h1>
             </div>
             <div class="s-two">
                 <h2 class="sub">This is possibly a subtitle.</h2>
@@ -148,7 +170,8 @@
         <div class="footer" id="bottom">
             <div class="footer-box">
 
-                <div class="f-left mod-50">
+                <div class="f-left mod-50 mo-f-mid">
+                    <img src="Assets/favicon/favicon-32x32.png" alt="logo">
                     <h1 class="title mob-foot-title"><span class="lime">Lime</span>Gorilla.</h1>
                     <p>Coded by Liam Doyle.</p>
                     <ul>
@@ -156,7 +179,7 @@
                         <li><a href="how.html">How this site was made</a></li>
                     </ul>
                 </div>
-                <div class="f-right mod-50 mod-mob-foot">
+                <div class="f-right mod-mob-foot mo-fo-b">
                     <p>Liam Doyle and LimeGorilla 2019.
                         <br>
                         All Rights Reserved.
@@ -166,17 +189,18 @@
                         A Liam Doyle creation.
                         <br>
                         <br>
-                        This version went live 12th March 2019</p>
+                        This version went live 20th March 2019</p>
                 </div>
+                <span class="devide"></span>
             </div>
             <div class="footer-bottom">
                 <ul class="footer-list">
-                    <li class="inline-item footer-item"><a href="https://facebook.com/limegorilla"><img src="Assets/icons/social-1_logo-facebook.svg"></a></li>
-                    <li class="inline-item footer-item"><a href="https://github.com/limegorilla"><img src="Assets/icons/social-1_logo-github.svg"></a></li>
-                    <li class="inline-item footer-item"><a href="https://instagram.com/limegorilla"><img src="Assets/icons/social-1_logo-instagram.svg"></a></li>
-                    <li class="inline-item footer-item"><a href="https://reddit.com/u/limegorilla"><img src="Assets/icons/social-1_logo-reddit.svg"></a></li>
-                    <li class="inline-item footer-item"><a href="https://open.spotify.com/user/limegorilla"><img src="Assets/icons/social-1_logo-spotify.svg"></a></li>
-                    <li class="inline-item footer-item"><a href="https://twitter.com/liamdoyleco"><img src="Assets/icons/social-1_logo-twitter.svg"></a></li>
+                    <li class="inline-item"><a href="https://facebook.com/limegorilla"><img class="footer-item" src="Assets/icons/social-1_logo-facebook.svg"></a></li>
+                    <li class="inline-item"><a href="https://github.com/limegorilla"><img class="footer-item" src="Assets/icons/social-1_logo-github.svg"></a></li>
+                    <li class="inline-item"><a href="https://instagram.com/limegorilla"><img class="footer-item" src="Assets/icons/social-1_logo-instagram.svg"></a></li>
+                    <li class="inline-item"><a href="https://reddit.com/u/limegorilla"><img class="footer-item" src="Assets/icons/social-1_logo-reddit.svg"></a></li>
+                    <li class="inline-item"><a href="https://open.spotify.com/user/limegorilla"><img class="footer-item" src="Assets/icons/social-1_logo-spotify.svg"></a></li>
+                    <li class="inline-item"><a href="https://twitter.com/liamdoyleco"><img class="footer-item" src="Assets/icons/social-1_logo-twitter.svg"></a></li>
                 </ul>
                 <p>Made with love with <a href="https://getbootstrap.com">Bootstrap</a> and <a href="https://github.com/limegorilla/limegorilla.github.io">GitHub.</a></p>
             </div>
@@ -184,6 +208,19 @@
 
     </div>
     <!-- Optional JavaScript -->
+    <!-- Loader -->
+    <script>
+        var myVar;
+
+        function myFunction() {
+            myVar = setTimeout(showPage, 3000);
+        }
+
+        function showPage() {
+            document.getElementById("loader").style.display = "none";
+            document.getElementById("myDiv").style.display = "block";
+        }
+    </script>
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
@@ -195,3 +232,5 @@
         }
     </script>
 </body></html>
+
+
