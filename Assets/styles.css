@@ -116,8 +116,8 @@ a {
 
 /* fonts */
 @font-face {
-    font-family: 'sofia-light';
-    src: url('fonts/sofiapro-light-webfont.eot');
+    font-family: '';
+    src: url('fonts/sofiapro-light-webfont.eot'),
     src: url('fonts/sofiapro-light-webfont.eot?#iefix') format('embedded-opentype'),
         url('fonts/sofiapro-light-webfont.woff2') format('woff2'),
         url('fonts/sofiapro-light-webfont.woff') format('woff'),
@@ -127,7 +127,16 @@ a {
     font-style: normal;
 
 }
-
+<!--
+@font-face {
+	    font-family: "sofia-light";
+	    src: url('http://hsaraid.pointblankstaging.com/wp-content/themes/x/fonts/Gotham-Bold.woff') format('woff'),
+	         url('http://hsaraid.pointblankstaging.com/wp-content/themes/x/fonts/Gotham-Bold.woff2') format('woff2'),
+	         url('http://hsaraid.pointblankstaging.com/wp-content/themes/x/fonts/Gotham-Bold.ttf') format('truetype');
+	    font-weight: normal;
+	    font-style: normal; 
+}
+-->
 @font-face {
     font-family: 'nexa-bold';
     src: url('fonts/Nexa_Free_Bold-webfont.eot');
