@@ -115,18 +115,7 @@ a {
 }
 
 /* fonts */
-@font-face {
-    font-family: 'sofia-light';
-    src: url('fonts/sofiapro-light-webfont.eot');
-    src: url('fonts/sofiapro-light-webfont.eot?#iefix') format('embedded-opentype'),
-        url('fonts/sofiapro-light-webfont.woff2') format('woff2'),
-        url('fonts/sofiapro-light-webfont.woff') format('woff'),
-        url('fonts/sofiapro-light-webfont.ttf') format('truetype'),
-        url('fonts/sofiapro-light-webfont.svg#sofia_prolight') format('svg');
-    font-weight: normal;
-    font-style: normal;
 
-}
 
 @font-face{
     font-family: 'acherus-grotesque';
@@ -227,7 +216,7 @@ a {
 .s1 {
     font-size: 5em;
     width: 70%;
-    font-family: sofia-light;
+    font-family: 'Montserrat', sans-serif;
     text-rendering: optimizeLegibility;
     color: #FF0080
 }
