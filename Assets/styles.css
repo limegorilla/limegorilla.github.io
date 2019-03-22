@@ -34,6 +34,10 @@ a {
     font-family: nexa-bold;
 }
 
+.clearme {
+    clear: both;
+}
+
 .txt {
     font-size: 1.2em;
 }
@@ -54,6 +58,10 @@ a {
     font-family: nexa-bold;
     padding: 0.5em;
     width: 40%
+}
+
+.display-inline {
+    display: inline-block;
 }
 
 .left {
@@ -117,7 +125,7 @@ a {
 /* fonts */
 
 
-@font-face{
+@font-face {
     font-family: 'acherus-grotesque';
     src: url('fonts/acherusgrotesque-regular-webfont.eot');
     src: url('fonts/acherusgrotesque-regular-webfont.eot#iefix') format('embedded-opentype'),
@@ -159,7 +167,7 @@ a {
 }
 
 .navlink {
-    font-family: sofia-light;
+    font-family: Montserrat;
     text-rendering: optimizeLegibility;
 }
 
@@ -221,6 +229,10 @@ a {
     color: #FF0080
 }
 
+.s-2 {}
+
+.s-2-txt {}
+
 /* footer */
 .go-top {
     text-align: center;
@@ -278,4 +290,38 @@ button.bs-green:hover {
 /* Index Only */
 .ind-caro {
     display: flex;
+}
+
+.center-outer {
+    position: relative;
+    width: 500px;
+    height: 500px;
+}
+
+.center-inner {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    height: 200px;
+}
+#discord-widget .widget-header {
+    background-color: #57ff60 !important;
+}
+.row {
+  margin: 0 auto;
+  text-align: center;
+}
+.sitemap-1 {
+  margin: 0 auto;
+  display: inline-block;
+}
+.sitemap-2 {
+  margin: 0 auto;
+  display: inline-block;
+}
+.sitemap-3 {
+  margin: 0 auto;
+  display: inline-block;
 }
