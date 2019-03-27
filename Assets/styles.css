@@ -30,12 +30,26 @@ a {
     display: none;
 }
 
+.iframe-1{
+    height: 100%;
+    width: 100%;
+}
+
 .sub {
     font-family: nexa-bold;
+    text-decoration: underline;
+    text-decoration-color: #c4fcc9;;
 }
 
 .clearme {
     clear: both;
+}
+.p-3em{
+    padding: 3em;
+}
+
+.p-5em{
+    padding: 5em;
 }
 
 .txt {
@@ -240,7 +254,7 @@ a {
 }
 
 .footer {
-    background-color: lightcyan;
+    background-color: #c4fcc9;
     padding: 4em 4em 1em;
 }
 

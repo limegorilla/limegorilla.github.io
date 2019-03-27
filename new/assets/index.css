@@ -1,0 +1,33 @@
+/* IN ORDER OF APPERANCE */
+.i-center {
+    text-align: center;
+    padding-top: 20%;
+}
+
+.i-title {
+    color: black;
+    text-decoration: underline;
+    text-decoration-color: #c4fcc9;
+    font-family: nexa-bold;
+    font-size: 2em
+}
+.i-title, a:hover{
+    text-decoration-color: #c4fcc9;
+}
+
+.i-nav {
+    margin: 4em 0;
+}
+
+.i-item {
+    display: inline;
+    padding: 0 3.5%;
+}
+
+.i-link {
+    color: black;
+    text-decoration: underline;
+    text-decoration-color: #ff72b8;
+    font-size: 1.3em;
+    font-family: 'Raleway', sans-serif;
+}

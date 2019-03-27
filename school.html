@@ -117,59 +117,113 @@
             </button>
         </div>
 
-
         <!-- Main content -->
         <!-- Pushes content down to accomodate nav-bar -->
         <div class="content">
             <!-- Main title -->
             <div class="s-title">
-                <h1 class="s1"><b>Welcome to my home on the internet.</b></h1>
+                <h1 class="s1"><b>Welcome, class.</b></h1>
+                <p class="txt">This is a collection of all my online school-work. For my projects, coursework and my extensive set of GCSE notes, see <a href="advanced.html">the ad+ webpage.</a></p>
             </div>
-            <iframe src="school/22032019di3he.html" width="100%" height="100%" frameborder="0" </iframe>
+
+            <ul class="nav nav-tabs" id="myTab" role="tablist">
+                <li class="nav-item">
+                    <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" id="spanish-tab" data-toggle="tab" href="#spanish" role="tab" aria-controls="spanish" aria-selected="false">Spanish</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact" aria-selected="false">Contact</a>
+                </li>
+            </ul>
+            <div class="tab-content" id="myTabContent">
+                <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+                    <div class="p-5em text-center">
+                        <h2 class="sub">Schoolwork</h2><br><br>
+                        <p class="txt">Hi there! Welcome to my schoolwork.<br>Select from the courses above to find the document you are looking for.<br>Documents are <em>not</em> hosted on GitHub, but are imported over from <a href="https://docs.google.com">Google Docs</a><br>If you are looking for anything that isn't homework, your better off looking over on<br>the Advanced+ webpage.</p>
+                        <p class="txt">All of the work here is my own. Please dont steal.</p>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="spanish" role="tabpanel" aria-labelledby="spanish-tab">
+                    <div class="p-5em text-center">
+                        <h2 class="sub">Spanish</h2>
+                        <!-- Button trigger modal -->
+                        <button type="button" class="btn bs-green" data-toggle="modal" data-target="#exampleModalLong">
+                            Work completed 27/02/2019
+                        </button>
+
+                        <!-- Modal -->
+                        <div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="spanish" aria-hidden="true">
+                            <div class="modal-dialog" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="spanish">Work completed 27/02/2019</h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+                                    <div class="modal-body">
+                                       <iframe class="iframe-1" src="https://docs.google.com/document/d/e/2PACX-1vRQxAhmZg69ZH5Y-DJ9llDZ5dckbUroeZnb1ENTBXldQ89Hfb1In17jhpp3XLpAojho6g6OlwvAcheV/pub?embedded=true" frameborder="0"></iframe>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">...</div>
+            </div>
             <div class="clearme"><span class="sr-only"></span></div>
         </div>
+        <div class=""></div>
         <!-- Footer -->
-        <div class="go-top">
-            <a href="#top"><span class="arrow-up"></span></a>
-        </div>
-        <div class="footer" id="bottom">
-            <div class="footer-box">
+        <footer>
+            <div class="go-top">
+                <a href="#top"><span class="arrow-up"></span></a>
+            </div>
+            <div class="footer">
+                <div class="footer-box">
 
-                <div class="f-left mod-50 mo-f-mid">
-                    <img src="Assets/favicon/favicon-32x32.png" alt="logo">
-                    <h1 class="title mob-foot-title"><span class="lime">Lime</span>Gorilla.</h1>
-                    <p>Coded by Liam Doyle.</p>
-                    <ul>
-                        <li><a href="sitemap.html">Sitemap</a></li>
-                        <li><a href="how.html">How this site was made</a></li>
+                    <div class="f-left mod-50 mo-f-mid">
+                        <img src="Assets/favicon/favicon-32x32.png" alt="logo">
+                        <h1 class="title mob-foot-title"><span class="lime">Lime</span>Gorilla.</h1>
+                        <p>Coded by Liam Doyle.</p>
+                        <ul>
+                            <li><a href="sitemap.html">Sitemap</a></li>
+                            <li><a href="how.html">How this site was made</a></li>
+                        </ul>
+                    </div>
+                    <div class="f-right mod-mob-foot mo-fo-b">
+                        <p>Liam Doyle and LimeGorilla 2019.
+                            <br>
+                            All Rights Reserved.
+                            <br>
+                            Uses the Bootstrap Engine, 2019 Twitter.
+                            <br>
+                            A Liam Doyle creation.
+                            <br>
+                            <br>
+                            This version went live 20th March 2019</p>
+                    </div>
+                    <span class="devide"></span>
+                </div>
+                <div class="footer-bottom">
+                    <ul class="footer-list">
+                        <li class="inline-item"><a href="https://facebook.com/limegorilla"><img class="footer-item" src="Assets/icons/social-1_logo-facebook.svg"></a></li>
+                        <li class="inline-item"><a href="https://github.com/limegorilla"><img class="footer-item" src="Assets/icons/social-1_logo-github.svg"></a></li>
+                        <li class="inline-item"><a href="https://instagram.com/limegorilla"><img class="footer-item" src="Assets/icons/social-1_logo-instagram.svg"></a></li>
+                        <li class="inline-item"><a href="https://reddit.com/u/limegorilla"><img class="footer-item" src="Assets/icons/social-1_logo-reddit.svg"></a></li>
+                        <li class="inline-item"><a href="https://open.spotify.com/user/limegorilla"><img class="footer-item" src="Assets/icons/social-1_logo-spotify.svg"></a></li>
+                        <li class="inline-item"><a href="https://twitter.com/liamdoyleco"><img class="footer-item" src="Assets/icons/social-1_logo-twitter.svg"></a></li>
                     </ul>
+                    <p>Made with love with <a href="https://getbootstrap.com">Bootstrap</a> and <a href="https://github.com/limegorilla/limegorilla.github.io">GitHub.</a></p>
                 </div>
-                <div class="f-right mod-mob-foot mo-fo-b">
-                    <p>Liam Doyle and LimeGorilla 2019.
-                        <br>
-                        All Rights Reserved.
-                        <br>
-                        Uses the Bootstrap Engine, 2019 Twitter.
-                        <br>
-                        A Liam Doyle creation.
-                        <br>
-                        <br>
-                        This version went live 20th March 2019</p>
-                </div>
-                <span class="devide"></span>
             </div>
-            <div class="footer-bottom">
-                <ul class="footer-list">
-                    <li class="inline-item"><a href="https://facebook.com/limegorilla"><img class="footer-item" src="Assets/icons/social-1_logo-facebook.svg"></a></li>
-                    <li class="inline-item"><a href="https://github.com/limegorilla"><img class="footer-item" src="Assets/icons/social-1_logo-github.svg"></a></li>
-                    <li class="inline-item"><a href="https://instagram.com/limegorilla"><img class="footer-item" src="Assets/icons/social-1_logo-instagram.svg"></a></li>
-                    <li class="inline-item"><a href="https://reddit.com/u/limegorilla"><img class="footer-item" src="Assets/icons/social-1_logo-reddit.svg"></a></li>
-                    <li class="inline-item"><a href="https://open.spotify.com/user/limegorilla"><img class="footer-item" src="Assets/icons/social-1_logo-spotify.svg"></a></li>
-                    <li class="inline-item"><a href="https://twitter.com/liamdoyleco"><img class="footer-item" src="Assets/icons/social-1_logo-twitter.svg"></a></li>
-                </ul>
-                <p>Made with love with <a href="https://getbootstrap.com">Bootstrap</a> and <a href="https://github.com/limegorilla/limegorilla.github.io">GitHub.</a></p>
-            </div>
-        </div>
+        </footer>
     </div>
     <!-- Optional JavaScript -->
     <!-- Loader -->
@@ -202,5 +256,3 @@
         }
     </script>
 </body></html>
-
-
