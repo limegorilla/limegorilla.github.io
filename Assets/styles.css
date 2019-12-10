@@ -339,3 +339,13 @@ button.bs-green:hover {
   margin: 0 auto;
   display: inline-block;
 }
+.tabbed-list-holder{
+  max-width: 80%;
+  text-align: left;
+  margin: 0 auto;
+  border-top: solid #adadad 2px;
+  display: block;
+}
+.tabbed-list{
+  padding-top: 2em;
+}
