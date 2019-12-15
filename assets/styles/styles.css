@@ -1,0 +1,490 @@
+/*
+CSS FOR LIMEGORILLA.CO.UK
+PROPERTY OF LIAM DOYLE
+THIS VERSION - 0.1-alpha, 14/12/19
+*/
+
+/* FONTS */
+@font-face {
+    font-family: "league_spartan";
+    src: url("/assets/fonts/leaguespartan-bold-webfont.woff2") format("woff2"),
+        url("assets/fonts/leaguespartan-bold-webfont.woff") format("woff");
+    font-weight: 700;
+    font-style: bold;
+}
+
+/* GLOBAl */
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* Colors */
+.lime {
+    color: #57FF60;
+}
+
+.blue {
+    color: #4ECDC4;
+}
+
+.black {
+    color: #001021;
+}
+
+.yellow {
+    color: #FFF07C;
+}
+
+.red {
+    color: #EC0B43;
+}
+
+.pink {
+    color: #FFAFC7;
+}
+
+.purple {
+    color: #58355E;
+}
+
+
+/* NAV */
+nav {
+    overflow: hidden;
+}
+
+.nav-left {
+    float: left;
+}
+
+.nav-logo {
+    padding: 0;
+    text-decoration: none;
+}
+
+.nav-title {
+    font-family: 'league_spartan';
+    font-weight: 700;
+    color: #000;
+    display: inline;
+    position: absolute;
+    margin: 0.6em 0;
+
+}
+
+.nav-logo-img {
+    padding: 0.5em;
+    width: 3em;
+    display: inline;
+}
+
+.nav-toggle {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    display: none;
+}
+
+.nav-toggle-link {
+    display: inline-block;
+    margin: 0.4em;
+    padding: 0.5em;
+    font-family: 'Montserrat';
+    color: #001021;
+    background-color: #fff;
+    border: solid #001021 2px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.nav-right {
+    float: right;
+}
+
+
+
+.nav-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: block;
+    margin-right: 1em;
+}
+
+.nav-item {
+    display: inline-block;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
+
+.nav-link {
+    display: block;
+    padding: 1.5em 1em;
+    color: #001021;
+    text-decoration: none;
+}
+
+.nav-link:hover {
+    color: #ffffff;
+    background-color: #001021;
+    transition: 0.5s;
+}
+
+@media screen and (max-width: 800px) {
+    .nav-right {
+        display: none;
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        background-color: #001021;
+        overflow: hidden;
+    }
+
+    .nav-item {
+        display: block;
+
+    }
+
+    .nav-link {
+        color: #fff;
+        font-size: 4em;
+        padding: 1.01em 0em 0em 0.4em;
+    }
+
+    .nav-toggle {
+        display: block;
+    }
+}
+
+.current {
+    color: grey;
+    pointer-events: none;
+}
+
+/* Header */
+header {
+    overflow: hidden;
+    padding: 6.5em 0;
+}
+
+@media screen and (max-width: 900px) {
+    header {
+        padding: 7.85em 0;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    header {
+        padding: 9.5em 0;
+    }
+}
+
+@media screen and (max-height: 800px) {
+    header {
+        padding: 4.99em 0;
+    }
+}
+
+.header-title {
+    float: left;
+    margin: 2em;
+}
+
+.header-title-text {
+    font-family: 'league_spartan';
+    font-weight: 700;
+    font-size: 4em;
+    margin: 0;
+}
+
+.header-sub-text {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    margin: 0.2em 0;
+}
+
+/* MAIN */
+main {
+    overflow: hidden;
+}
+
+.main-content-wrapper {
+    max-width: 1080px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 3em;
+    overflow: hidden;
+}
+
+.main-title {
+    font-family: 'league_spartan';
+    text-shadow: #ffffff 3px 3px 5px;
+    color: #000000;
+}
+
+.main-left {
+    float: left;
+    display: block;
+    width: 50%;
+}
+
+.main-right {
+    float: right;
+    width: 50%;
+}
+
+.main-text {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    line-height: 1.5em;
+}
+
+.main-image {
+    width: 10em;
+    border-radius: 50%;
+    padding-top: 2em;
+}
+
+.main-image-subtext {
+    font-family: 'Space Mono';
+    font-weight: 400;
+    font-size: 0.8em;
+}
+
+.main-project-list {
+    padding: 0;
+    list-style: none;
+    text-align: left;
+    margin: 0;
+}
+
+.main-project-item {
+    padding: 1em;
+    width: 80%;
+}
+
+.main-project-link {
+    background-color: #58355E;
+    padding: 1em;
+    display: block;
+    border-radius: 10px;
+    text-decoration: none;
+    font-family: 'Space Mono';
+    font-weight: 400;
+}
+
+.main-project-link:hover {
+    box-shadow: 5px 5px #2E2E2E;
+    transition: 0.5s;
+    background-color: #67476C;
+}
+
+.main-project-status {
+    color: #ffffff;
+}
+
+.main-project-linktitle {
+    color: #A390A7;
+    font-size: 1.5em;
+}
+
+.main-project-link:hover .main-project-linktitle {
+    color: #fff;
+    transition: 0.5s;
+}
+
+.main-projects-button {
+    text-decoration: none;
+    padding: 1em;
+    display: inline-block;
+    font-family: 'Space Mono';
+    background-color: #58355E;
+    color: #A390A7;
+    font-size: 1.5em;
+    border-radius: 10px;
+}
+
+.main-projects-button:hover {
+    box-shadow: 5px 5px #2E2E2E;
+    transition: 0.5s;
+    background-color: #67476C;
+    color: #fff;
+}
+
+.main-collage-list {
+    list-style: none;
+    padding: 0;
+    display: inline-block;
+    text-align: left;
+    margin: 0 auto;
+}
+
+.main-collage-item {
+    display: inline-block;
+    margin: 20px;
+}
+
+.main-collage-link {
+    font-family: 'Space Mono';
+    font-weight: 400;
+    color: #FFFDAC;
+    text-decoration: none;
+    padding: 1em;
+    border-radius: 10px;
+    background-color: #747322;
+}
+
+.main-collage-link:hover {
+    box-shadow: 5px 5px #2E2E2E;
+    transition: 0.5s;
+    background-color: #8C8928;
+    color: #fff;
+}
+
+.main-contact-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.main-contact-item {
+    display: inline-block;
+}
+
+.main-contact-link {
+    width: 50px;
+}
+
+@media screen and (max-width: 900px) {
+    .main-left {
+        float: none;
+        width: 100%;
+    }
+
+    .main-right {
+        float: none;
+        width: 100%;
+    }
+
+    .main-collage-list {
+        text-align: center;
+    }
+    .main-collage-item {
+        margin: 1.9em 0;
+    }
+}
+
+/* ABOUT ME */
+#about {
+    color: #ffffff;
+    background-color: #4ECDC4;
+}
+
+#projects {
+    color: #ffffff;
+    background-color: #FFAFC7;
+}
+
+#collage {
+    color: #000000;
+    background-color: #FFF07C;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Footer */
+footer {
+    overflow: hidden;
+    padding: 3em;
+    background-color: #001021;
+    color: #FFFFFF;
+}
+
+.footer-title {
+    font-family: 'league_spartan', sans-serif;
+    font-weight: 700;
+    margin: 0;
+}
+
+.footer-left {
+    float: left;
+    width: 50%;
+}
+
+.footer-list {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-text {
+    font-family: 'Space Mono', monospace;
+    font-weight: 400;
+}
+
+.footer-link {
+    color: #73A5DA;
+}
+
+.footer-link:hover {
+    background-color: #FFFFFF;
+    color: #001021;
+}
+
+.footer-right {
+    float: right;
+    width: 50%;
+    text-align: right;
+}
+
+@media screen and (max-width: 900px) {
+    .footer-title {
+        text-align: center;
+    }
+
+    .footer-left {
+        float: none;
+        width: 100%;
+        margin: 2em 0;
+    }
+
+    .footer-right {
+        float: none;
+        text-align: center;
+        width: 100%;
+    }
+
+    .footer-right p {
+        margin: 1.5em 0;
+    }
+}
+
+/* MOBILE STUFF */
+.mobile-show {
+    display: none;
+}
+
+@media screen and (max-width: 900px) {
+    .mobile-show {
+        display: block;
+    }
+
+    .mobile-hide {
+        display: none;
+    }
+}
