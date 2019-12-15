@@ -144,7 +144,8 @@ nav {
 
     .nav-item {
         display: block;
-
+        font-family: 'league_spartan';
+        font-weight: 700;
     }
 
     .nav-link {
