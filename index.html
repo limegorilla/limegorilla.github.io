@@ -37,8 +37,8 @@
     <!-- Navigation -->
     <nav id="nav">
         <div class="nav-left">
-            <a class="nav-logo" href="#info">
-                <img class="nav-logo-img" src="assets/favicon/android-icon-192x192.png" alt="lg-logo">
+            <a class="nav-logo" onclick="toggleInfo()">
+                <img class="nav-logo-img" src="assets/favicon/favicon-96x96.png" alt="lg-logo">
                 <h1 class="nav-title"><span class="lime">lime</span>gorilla</h1>
             </a>
         </div>
@@ -59,6 +59,24 @@
     </nav>
 
     <header id="header">
+        <div class="infobox" id="info">
+            <div class="info-darken-container">
+                <h1 class="info-title"><span class="lime">Lime</span>Gorilla</h1>
+                <p class="info-subtitle">by liam doyle</p>
+                <p class="main-text">
+                    "What's a LimeGorilla?"
+                    <br><br>
+                    People ask me this a lot. My username is rather... unique, to say the least. When I was chosing it, I had no idea that <em>so many <b>damn people</b> would ask about it.</em>
+                    <br><br>
+                    The long and short of it is, there is no hidden meaning. No hidden gorilla that I worship. It was just my favorite colour and a random word from a generator.
+                    <br>
+                    It is a memorable name though - so I haven't done to badly.
+                </p>
+                <div class="info-toggle">
+                    <a class="nav-toggle-link" onclick="toggleInfo()">Close</a>
+                </div>
+            </div>
+        </div>
         <div class="header-title">
             <h1 class="header-title-text">Hi.
                 <br>
