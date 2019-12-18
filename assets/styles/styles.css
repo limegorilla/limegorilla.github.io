@@ -61,11 +61,15 @@ nav {
 
 .nav-left {
     float: left;
+    overflow: hidden;
 }
 
 .nav-logo {
     padding: 0;
     text-decoration: none;
+    display: inline;
+    transition: 0.3s;
+    margin-left: 1em;
 }
 
 .nav-title {
@@ -129,12 +133,12 @@ nav {
     padding: 1.5em 1em;
     color: #001021;
     text-decoration: none;
+    transition: 0.5s;
 }
 
 .nav-link:hover {
     color: #ffffff;
     background-color: #001021;
-    transition: 0.5s;
 }
 
 @media screen and (max-width: 800px) {
@@ -148,7 +152,54 @@ nav {
     }
 
     .nav-list {
-        transition: 0.5s;
+        -webkit-animation: fadein 2s;
+        -moz-animation: fadein 2s;
+        -ms-animation: fadein 2s;
+        -o-animation: fadein 2s;
+        animation: fadein 2s;
+    }
+
+    @keyframes fadein {
+        from {
+            opacity: 0;
+        }
+
+        to {
+            opacity: 1;
+        }
+    }
+
+    /* Firefox < 16 */
+    @-moz-keyframes fadein {
+        from {
+            opacity: 0;
+        }
+
+        to {
+            opacity: 1;
+        }
+    }
+
+    /* Safari, Chrome and Opera > 12.1 */
+    @-webkit-keyframes fadein {
+        from {
+            opacity: 0;
+        }
+
+        to {
+            opacity: 1;
+        }
+    }
+
+    /* Internet Explorer */
+    @-ms-keyframes fadein {
+        from {
+            opacity: 0;
+        }
+
+        to {
+            opacity: 1;
+        }
     }
 
     .nav-item {
@@ -328,11 +379,11 @@ main {
     text-decoration: none;
     font-family: 'Space Mono';
     font-weight: 400;
+    transition: 0.5s;
 }
 
 .main-project-link:hover {
     box-shadow: 5px 5px #2E2E2E;
-    transition: 0.5s;
     background-color: #67476C;
 }
 
@@ -343,11 +394,11 @@ main {
 .main-project-linktitle {
     color: #A390A7;
     font-size: 1.5em;
+    transition: 0.5s;
 }
 
 .main-project-link:hover .main-project-linktitle {
     color: #fff;
-    transition: 0.5s;
 }
 
 .main-projects-button {
@@ -359,11 +410,12 @@ main {
     color: #A390A7;
     font-size: 1.5em;
     border-radius: 10px;
+    transition: 0.5s;
 }
 
 .main-projects-button:hover {
     box-shadow: 5px 5px #2E2E2E;
-    transition: 0.5s;
+
     background-color: #67476C;
     color: #fff;
 }
@@ -389,11 +441,11 @@ main {
     padding: 1em;
     border-radius: 10px;
     background-color: #747322;
+    transition: 0.5s;
 }
 
 .main-collage-link:hover {
     box-shadow: 5px 5px #2E2E2E;
-    transition: 0.5s;
     background-color: #8C8928;
     color: #fff;
 }
@@ -495,6 +547,7 @@ footer {
 
 .footer-link {
     color: #73A5DA;
+    transition: 0.2s;
 }
 
 .footer-link:hover {
@@ -547,10 +600,6 @@ footer {
 /* MOBILE STUFF */
 .mobile-show {
     display: none;
-}
-
-.mobile-hide {
-    display: block;
 }
 
 @media screen and (max-width: 900px) {
