@@ -14,3 +14,11 @@ function toggleInfo() {
     x.style.display = "none";
   }
 }
+function toggleNewYear() {
+  var x = document.getElementById("newyear");
+  if (x.style.display === "none") {
+    x.style.display = "flex";
+  } else {
+    x.style.display = "none";
+  }
+}
