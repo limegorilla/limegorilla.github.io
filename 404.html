@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Liam Doyle | 404</title>
+    <meta name="author" content="Liam Doyle">
+    <meta name="description" content="Homepage on the web for Liam Doyle, also known as limegorilla.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/styles/styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Space+Mono&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+
+    <!-- Favicons -->
+    <link rel="apple-touch-icon" sizes="57x57" href="assets/favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="assets/favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="assets/favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="assets/favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="assets/favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="assets/favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="assets/favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="assets/favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="assets/favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="assets/favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
+    <link rel="manifest" href="assets/favicon/manifest.json">
+    <meta name="msapplication-TileColor" content="#57FF60">
+    <meta name="msapplication-TileImage" content="assets/favicon/ms-icon-144x144.png">
+    <meta name="theme-color" content="#57FF60">
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav id="nav">
+        <div class="nav-left">
+            <a class="nav-logo" onclick="toggleInfo()">
+                <img class="nav-logo-img" src="assets/favicon/favicon-96x96.png" alt="lg-logo">
+                <h1 class="nav-title"><span class="lime">lime</span>gorilla</h1>
+            </a>
+        </div>
+        <div class="nav-toggle">
+            <a class="nav-toggle-link" onclick="toggleNav()">Menu</a>
+        </div>
+        <div class="nav-right" id="toggled">
+            <div class="nav-toggle">
+                <a class="nav-toggle-link" onclick="toggleNav()">Close</a>
+            </div>
+            <div class="nav-mobile-center">
+                <ul class="nav-list">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="index.html#about" onclick="toggleNav()">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="projects.html" onclick="toggleNav()">Projects</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#collage" onclick="toggleNav()">Collage</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header id="header">
+        <div class="infobox" id="info">
+            <div class="info-darken-container">
+                <h1 class="info-title"><span class="lime">Lime</span>Gorilla</h1>
+                <p class="info-subtitle">by liam doyle</p>
+                <p class="main-text">
+                    "What's a LimeGorilla?"
+                    <br><br>
+                    People ask me this a lot. My username is rather... unique, to say the least. When I was chosing it, I had no idea that <em>so many <b>damn people</b> would ask about it.</em>
+                    <br><br>
+                    The long and short of it is, there is no hidden meaning. No hidden gorilla that I worship. It was just my favorite colour and a random word from a generator.
+                    <br>
+                    It is a memorable name though - so I haven't done to badly.
+                </p>
+                <div class="info-toggle">
+                    <a class="nav-toggle-link" onclick="toggleInfo()">Close</a>
+                </div>
+            </div>
+        </div>
+        <div class="header-title center-404">
+            <h1 class="header-title-text">
+                ?
+                <br>
+                <span class="err-txt">err404</span>.
+            </h1>
+            <h3 class="header-sub-text">Sorry! We looked everywhere - even under the sofa - but we couldn't find your page.</h3>
+        </div>
+    </header>
+    <footer id="footer">
+        <h1 class="footer-title"><span class="lime">lime</span>gorilla</h1>
+        <div class="footer-left">
+            <ul class="footer-list">
+                <li class="footer-text"><a class="footer-link" href="#about">about</a></li>
+                <li class="footer-text"><a class="footer-link" href="#contact">social & contact</a></li>
+            </ul>
+        </div>
+        <div class="footer-right">
+            <p class="footer-text">
+                limegorilla, by Liam Doyle
+                <br>
+                All rights reserved. 2020, Liam Doyle
+            </p>
+            <p class="footer-text"><em>v0.2-alpha, <a class="footer-link" href="https://github.com/limegorilla/limegorilla.github.io/commits/master">comitted to GitHub</a> on the 16/12/19</em></p>
+        </div>
+    </footer>
+
+    <script type="text/javascript" src="assets/scripts/scripts.js"></script>
+
+</body></html>
