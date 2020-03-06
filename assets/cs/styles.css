@@ -1,0 +1,53 @@
+/* Fonts
+font-family: gilbert,sans-serif;
+font-weight: 700;
+font-style: normal;
+-0-
+font-family: azo-sans-web,sans-serif;
+font-weight: 900,700,400;
+font-style: normal;
+*/
+
+body {
+    background-color: #000;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    font-family: azo-sans-web, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+
+
+
+
+/* TYPE */
+
+/* TYPE COLOUR */
+.lime {
+    color: #57FF60;
+}
+
+
+
+/* main (INDEX.HTML SPECIFIC) */
+
+.main-header-pad {
+    padding: 3em 0 0 1.5em;
+}
+
+.main-header-image {
+    width: 7em;
+}
+
+.main-header-welcome {
+    font-family: gilbert, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.main-header-logotext {
+    font-size: 2em;
+}
