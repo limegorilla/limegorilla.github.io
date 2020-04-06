@@ -3,62 +3,64 @@
 <html lang="en">
 
 <head>
-    <meta charset="utf-8">
+	<meta charset="utf-8">
 
-    <title>LimeGorilla | Home</title>
+	<title>LimeGorilla | Home</title>
 
-    <!-- Favicon -->
+	<!-- Favicon -->
 	<link rel="icon" href="assets/ico/favicon/logo.png">
 
-    <!-- Metadata -->
-    <meta name="description" content="Online portfolio for slightly mad idiot who goes by the name of LimeGorilla. Also called Liam Doyle.">
-    <meta name="author" content="Liam Doyle">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-	
+	<!-- Metadata -->
+	<meta name="description" content="Online portfolio for slightly mad idiot who goes by the name of LimeGorilla. Also called Liam Doyle.">
+	<meta name="author" content="Liam Doyle">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 	<!-- Linked Files -->
-	
+
 	<!-- Main CSS -->
 	<link rel="stylesheet" type="text/css" href="assets/style/main-styles.css">
 	<!-- Fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Sen:wght@400;700;800&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Sen:wght@400;700;800&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="https://use.typekit.net/xal4smh.css">
-	
+
 
 </head>
 
 <body>
+
 	<nav>
-		<div class="nav-toggle">
-            
-			<img src="assets/img/branding/logo.png" alt="LimeGorilla Logo" id="menu-logo">
-			<a class="nav-opener" id="menutoggle">menu.</a>
+		<div class="closed-navigation">
+			<img src="assets/img/branding/logo.png" alt="LimeGorilla Logo">
+			<a id="navigation-open">menu.</a>
 		</div>
-		<div class="nav-open" id="menu">
-			<div class="nav-left">
+		<div class="opened-navigation">
+			<div class="navigation-control">
+				<img src="assets/img/branding/logo.png" alt="LimeGorilla Logo">
+				<a id="navigation-close">x</a>
+			</div>
+			<div class="o-nav-branding">
 				<span>
-					<div class="nav-left-horizontal">
-						<img src="assets/img/branding/logo.png" alt="limegorilla logo">
-						<p class="nav-branding-main">limegorilla</p>
-					</div>
+					<img src="assets/img/branding/logo.png" alt="LimeGorilla Logo">
+					<p class="o-nav-logo">limegorilla.</p>
 				</span>
 			</div>
-			<div class="nav-seperator"></div>
-			<div class="nav-right">
-				<ul class="nav-menu">
-					<li><a href="about.html" id="menu-about" class="nav-item">about.</a></li>
-					<li><a href="portfolio.html" id="menu-portfolio" class="nav-item">portfolio.</a></li>
-					<li><a href="projects.html" id="menu-projects" class="nav-item">projects.</a></li>
-					<li><a href="contact.html" id="menu-contact" class="nav-item">contact.</a></li>
+			<div class="nav-seperator">
+				<!-- 
+				In mobile mode, this adds padding to the top to offset the visible menu controls.
+				In desktop mode, this acts as the left-right seperator
+				-->
+			</div>
+			<div class="o-nav-menu">
+				<ul class="navigation-menu">
+					<li class="nav-menuitem"><a href="about.html" class="nav-menulink">about.</a></li>
+					<li class="nav-menuitem"><a href="portfolio.html" class="nav-menulink">portfolio.</a></li>
+					<li class="nav-menuitem"><a href="projects.html" class="nav-menulink">projects.</a></li>
+					<li class="nav-menuitem"><a href="#contact" class="nav-menulink">contact.</a></li>
 				</ul>
 			</div>
 		</div>
 	</nav>
-	
-	
-<script
-  src="https://code.jquery.com/jquery-3.4.1.min.js"
-  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
-  crossorigin="anonymous"></script>
-<script src="assets/js/scripts.js"></script>
-	</body>
-</html>
+
+	<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+	<script src="assets/js/scripts.js"></script>
+</body></html>

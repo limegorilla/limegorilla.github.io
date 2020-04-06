@@ -1,14 +1,14 @@
 // JavaScript Document
 
-$(function(){
-  $("#menu").css("display","none");
 
-  $("#menutoggle").click(function(){
-    $("#menu").slideToggle(100);
-	  $("#menu-logo").toggle(); 
-  })  
+$("#navigation-open, #navigation-close").click(function(){
+  $(".opened-navigation").toggle();
 })
 
+
+
+
+/*
 $("#menu-about").hover(function(){
   $("body").css("background-color", "#FF58EE");
   }, function(){
@@ -32,3 +32,4 @@ $("#menu-contact").hover(function(){
   }, function(){
   $("body").css("background-color", "#3A3A3A");
 });
+*/
