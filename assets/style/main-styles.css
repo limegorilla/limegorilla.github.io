@@ -1,0 +1,132 @@
+/* CSS Document */
+
+/*
+FONT INFO:
+
+Main typeface:
+	font-family: 'Sen', sans-serif;
+	font-weight: 400,700,800;
+	font-style: normal;
+	(by default 400 is to be used)
+
+Titles:
+	font-family: gilbert, sans-serif;
+	font-weight: 700;
+	font-style: normal;
+
+Links are to use more bold typeface. for example, would use Sen 700 over Sen 400
+*/
+
+/* Global stuff i need to declare to keep my sanity */
+
+body {
+	padding: 0;
+	margin: 0;
+	/* Default Font */
+	font-family: 'Sen', sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	background-color: #3A3A3A;
+}
+
+a {
+	font-family: 'Sen', sans-serif;
+	font-weight: 700;
+	font-style: normal;
+	color: #000000;
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: underline;
+	transition: 0.4s;
+}
+
+/*
+ON PAGE OPEN
+*/
+
+.nav-toggle {
+	position: fixed;
+	width: 100%;
+}
+
+.nav-toggle img {
+	float: left;
+	margin: 2em;
+	display: inline;
+	width: 3.7em;
+}
+
+.nav-opener {
+	display: inline;
+	margin: 1em;
+	float: right;
+	font-size: 2em;
+	color: #ffffff;
+}
+
+.nav-open {
+	display: none;
+}
+
+.nav-left {
+  display: table;
+  float: left;
+  height: 100vh;
+  width: 50%;
+}
+
+.nav-left span {
+	display: table-cell; 
+ 	vertical-align: middle; 
+}
+
+.nav-left-horizontal {
+	display: block;
+ 	margin-left: auto;
+  	margin-right: auto;
+  	width: 50%;
+}
+
+
+.nav-branding-main {
+	font-family: gilbert, sans-serif;
+	font-weight: 700;
+	font-style: normal;
+	color: #ffffff;
+	font-size: 4em;
+	line-height: 0;
+	
+}
+
+.nav-seperator {
+	border-left: 1px solid #FFFFFF;
+	position: absolute;
+	height: 80%;
+	margin: 0 50%;
+	top: 10%;
+	bottom: 10%;
+}
+
+.nav-right {
+	display: table;
+ 	 float: right;
+ 	 height: 100vh;
+	  width: 50%;
+}
+
+.nav-menu {
+	display: table-cell; 
+ 	 vertical-align: middle; 
+	list-style: none;
+	padding: 0;
+}
+
+
+
+.nav-item {
+	display: block;
+	padding: 0.7em 0 0.7em 10vw;
+	font-size: 3em;
+	color: #ffffff;
+}
