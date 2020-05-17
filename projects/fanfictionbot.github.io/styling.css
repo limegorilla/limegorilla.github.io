@@ -1,0 +1,80 @@
+/* FONTS */
+@font-face {
+    font-family: 'spartanbold';
+    src: url('assets/fonts/leaguespartan-bold-webfont.woff2') format('woff2'),
+        url('assets/fonts/leaguespartan-bold-webfont.woff') format('woff'),
+        url('assets/fonts/leaguespartan-bold-webfont.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+/* Basic */
+body {
+    margin: 0;
+    font-family: 'Sen', sans-serif;
+    font-weight: 400;
+    background-color: #323233;
+    color: #ffffff;
+}
+
+/* Main Search Window */
+.main-botsearch {
+    padding: 1em;
+}
+
+.main-title {
+    font-family: 'spartanbold';
+    margin: 0;
+    padding: 0;
+    font-size: 3em;
+}
+
+.main-subtitle {
+    padding: 0;
+    margin: 0;
+}
+
+#form-search {
+    padding: 5em 0;
+    text-align: center;
+}
+
+#input-search {
+    padding: 12px 10px;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#submit-search {
+    padding: 5px;
+    margin: 0;
+    background: none;
+    color: inherit;
+    border: none;
+    padding: 0;
+    font: inherit;
+    cursor: pointer;
+    outline: inherit;
+
+}
+
+.form-img {
+    margin: 0;
+    width: 30px;
+}
+
+/* Main Results Window */
+#search-results {
+    padding: 2em;
+}
+
+#search-result {
+    text-align: center;
+    display: inline;
+}
+
+#search-result,
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
