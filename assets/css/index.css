@@ -22,16 +22,16 @@
     margin: 0;
     font-weight: 700;
     font-size: 3em;
-    animation: mainTitle 10s ease-in-out infinite;
+    animation: titleScreen 10s ease-in-out infinite;
     background: linear-gradient(-60deg, #904E95, #904E95, #E73C7E, #EE7752);
     background-size: 300%;
     background-clip: text;
     -webkit-background-clip: text;
-    -webkit-text-fill-colour: transparent;
+    -webkit-text-fill-color: transparent;
 }
 
 
-@keyframes mainTitle {
+@keyframes titleScreen {
     0% {
         background-position: 0 50%;
     }
@@ -49,6 +49,12 @@
 .main-subtitle {
     margin: 0;
     font-weight: 500;
+    animation: titleScreen 10s ease-in-out infinite;
+    background: linear-gradient(-60deg, #EE7752, #904E95, #E73C7E, #EE7752);
+    background-size: 300%;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 /* MiniNav */
