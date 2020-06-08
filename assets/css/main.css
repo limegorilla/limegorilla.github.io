@@ -71,3 +71,14 @@ body {
     background-color: #000;
     color: #ffffff;
 }
+
+.content-body {
+    font-family: 'League Spartan';
+    margin: 0;
+}
+
+.content-link {
+    color: #57FF60;
+}
+
+

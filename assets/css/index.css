@@ -122,4 +122,9 @@
 }
 
 
-.content-about
+.content-about {
+    color: blue;
+    font-family: 'League Spartan';
+    font-size: 5em;
+    margin: 0;
+}
