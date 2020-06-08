@@ -79,6 +79,8 @@
     min-width: 4em;
     padding: 0 1em;
     text-align: center;
+    overflow: hidden;
+    white-space: nowrap;
 }
 
 .mininav-item:hover {
@@ -100,6 +102,8 @@
     padding: 0 2em;
     font-weight: 500;
     font-size: 1.3em;
+    overflow: hidden;
+    white-space: nowrap;
 }
 
 .mininav-link {
