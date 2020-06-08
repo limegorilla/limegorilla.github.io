@@ -1,0 +1,115 @@
+/* Main modal */
+.modal-main {
+    height: 100vh;
+    width: 100vw;
+    background-image: url("/assets/img/Woods-Poppy-06.jpeg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-text {
+    padding: 1em;
+    /* background-color: rgba(255, 255, 255, 0.5); */
+    text-align: center;
+    border-radius: 20px;
+    font-family: 'League Spartan';
+}
+
+.main-title {
+    margin: 0;
+    font-weight: 700;
+    font-size: 3em;
+    animation: mainTitle 10s ease-in-out infinite;
+    background: linear-gradient(-60deg, #904E95, #904E95, #E73C7E, #EE7752);
+    background-size: 300%;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-colour: transparent;
+}
+
+
+@keyframes mainTitle {
+    0% {
+        background-position: 0 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0 50%;
+    }
+}
+
+
+.main-subtitle {
+    margin: 0;
+    font-weight: 500;
+}
+
+/* MiniNav */
+
+.mininav {
+    width: 100vw;
+    height: 3em;
+}
+
+.mininav-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-family: 'League Spartan';
+    overflow-y: scroll;
+}
+
+.mininav-item {
+    display: table-cell;
+    vertical-align: middle;
+    height: 3em;
+    min-width: 4em;
+    padding: 0 1em;
+    text-align: center;
+}
+
+.mininav-item:hover {
+    background-color: #fff;
+    transition: 1.5s;
+    color: #000000;
+}
+
+.mininav-item:hover > .mininav-link {
+    color: #000;
+    transition: 1s;
+}
+
+.mininav-title {
+    display: table-cell;
+    vertical-align: middle;
+    height: 3em;
+    text-align: center;
+    padding: 0 2em;
+    font-weight: 500;
+    font-size: 1.3em;
+}
+
+.mininav-link {
+    color: #57FF60;
+}
+
+/* Mininav Overlay */
+
+.mininav-overlay {
+    display: none;
+}
+
+/* Content */
+.index-content {
+    margin: 1em;
+}
+
+
+.content-about
