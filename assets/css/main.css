@@ -82,3 +82,40 @@ body {
 }
 
 
+
+/* Footer */
+footer {
+    font-family: 'League Spartan';
+    margin: 1em;
+}
+
+.footer-title {
+    margin: 0;
+    font-size: 4em;
+    color: #57FF60;
+}
+
+.footer-body {
+    margin: 0;
+}
+
+.footer-nav-list {
+    margin: 1em;
+    padding: 0;
+    list-style: none;
+}
+
+.footer-nav-title {
+    font-size: 2em;
+    font-weight: 600;
+}
+
+.footer-nav-item {
+    color: #B3B1B1;
+    font-style: italic;
+}
+
+.footer-nav-link {
+    font-style: normal;
+    color: #57FF60;
+}
