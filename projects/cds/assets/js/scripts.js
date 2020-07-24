@@ -1,3 +1,0 @@
-function navToggle() {
-    const toggle
-}
