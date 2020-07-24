@@ -1,0 +1,116 @@
+<!Doctype=HTML>
+
+    <!--
+Chichester Dental Studio, 2020.
+All rights reserved.
+-->
+    <html>
+
+    <head>
+        <!-- Metadata -->
+        <title>Chichester Dental</title>
+        <meta charset="UTF-8">
+        <meta name="description" content="A family-run dentist practice based in Chichester, serving both NHS and private patients in the area.">
+        <meta name="keywords" content="Dentist, Chichester, Teeth, Practice">
+        <meta name="author" content="Liam Doyle">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- Linked CSS -->
+        <link href="assets/css/styles.css" rel="stylesheet" type="text/css">
+
+        <!-- Linked JS -->
+        <script src="assets/js/scripts.js"></script>
+
+        <!-- Linked Fonts -->
+        <link href="https://fonts.googleapis.com/css2?family=Source+Serif+Pro:wght@600&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+        <!-- Loader -->
+        <div class="loader"></div>
+
+        <!-- Navigation -->
+        <nav>
+            <div class="nav-container-branding">
+                <a href="#">
+                    <img src="assets/img/logo_cds.svg" class="nav-branding-img">
+                </a>
+            </div>
+            <div class="nav-container-toggle">
+                <a href="javascript:void(0);" onclick="myFunction()" class="nav-toggle">Menu</a>
+            </div>
+            <div class="nav-container-navigation" id="navContainer">
+                <p class="nav-navigation-title">Chichester Dental Studio</p>
+                <ul class="nav-navigation-list">
+                    <li class="nav-list-item"><a href="#top" class="nav-item-link nav-item-active">Home</a></li>
+                    <li class="nav-list-item"><a href="services.html" class="nav-item-link">Services</a></li>
+                    <li class="nav-list-item"><a href="policies.html" class="nav-item-link">Policies</a></li>
+                    <li class="nav-list-item"><a href="#modal-directions" class="nav-item-link">Find us</a></li>
+                    <li class="nav-list-item"><a href="#modal-contact" class="nav-item-link">Connect with us</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <!-- Header -->
+        <header id="top" style="display: none;">
+            <!-- Video -->
+            <video loop muted autoplay class="header-video">
+                <source src="assets/vid/headercover_index_cds.mp4" type="video/mp4">
+            </video>
+            <!-- Content -->
+            <div class="header-content-wrapper">
+                <h1 class="header-title">Chichester Dental Studio</h1>
+                <sub class="header-sub">JS CONTENT</sub>
+            </div>
+        </header>
+
+        <!-- Main content wrapper -->
+        <main>
+            <div class="section about" id="about"></div>
+            <div class="section services" id="services"></div>
+            <div class="section staff" id="staff"></div>
+            <div class="section reviews" id="reviews"></div>
+        </main>
+
+        <!-- Modals -->
+        <div class="modals">
+            <div class="modals-container-directions" id="modal-directions">
+                
+            </div>
+            <div class="modals-container-contact" id="modal-contact"></div>
+        </div>
+
+        <!-- Footer -->
+        <footer>
+            <div class="footer-container-maps"></div>
+            <div class="footer-container-text footer-text">
+                <p class="footer-title">Chichester Dental Studio</p>
+                <p>
+                    Tel: 01243 697500
+                    <br>
+                    SMS: 07704 575596
+                </p>
+                <p>
+                    22, The Hornet
+                    <br>
+                    Chichester, West Sussex
+                    <br>
+                    PO19 7JG
+                </p>
+                <p>
+                    Opening Hours: Mon-Fri, 08:30 - 15:30
+                    <br>
+                    Saturday, 09:00 - 14:00
+                </p>
+            </div>
+            <div class="footer-container-bottom">
+                <div class="footer-branding">
+                    <img src="assets/img/logo_cds.svg" class="nav-branding-img">
+                    <p class="footer-text">CDS</p>
+                </div>
+                <iframe src="https://limegorilla.co.uk/branding/iframe.html" class="limegorilla-branding"></iframe>
+            </div>
+        </footer>
+    </body>
+
+    </html>
