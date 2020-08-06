@@ -92,8 +92,19 @@
 
             body {
                 font-family: "League Spartan";
+                background-color: rgba(255, 255, 255, 0);
                 margin: 0;
-                animation: bodybg 10s ease-in-out infinite;
+            }
+
+            a {
+                color: #fff;
+                text-decoration: none;
+                text-align: center;
+                display: grid;
+                place-items: center;
+                height: 100%;
+                width: 100%;
+                animation: textbg 10s ease-in-out infinite;
                 background: linear-gradient(
                     -60deg,
                     #904e95,
@@ -102,9 +113,12 @@
                     #ee7752
                 );
                 background-size: 300%;
+                background-clip: text;
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
             }
 
-            @keyframes bodybg {
+            @keyframes textbg {
                 0% {
                     background-position: 0 50%;
                 }
@@ -117,23 +131,9 @@
                     background-position: 0 50%;
                 }
             }
-
-            a {
-                color: #fff;
-                text-decoration: none;
-                text-align: center;
-                display: grid;
-                place-items: center;
-                height: 100%;
-                width: 100%;
-            }
             h2 {
                 display: inline;
                 margin: 0;
-            }
-
-            .logo {
-                color: #57ff60;
             }
         </style>
     </head>
